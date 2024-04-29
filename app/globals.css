@@ -196,6 +196,16 @@ main {
   }
 }
 
+.work-tabs {
+  button {
+    border-right: 1px solid var(--hoffmann-blue);
+
+    &.active {
+      color: var(--hoffmann-blue);
+    }
+  }
+}
+
 @keyframes work-detail-animation-on {
   0% {transform: translateX(100%);}
   100% {transform: translateX(0);}
