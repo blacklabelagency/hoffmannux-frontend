@@ -3,9 +3,12 @@ import Services from "./components/services/Services";
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
 import Work from "./components/work/Work";
+import jsonData from "./json/data.json"
 
 
 export default function Home() {
+
+  const workData = jsonData;
 
   return (
     <>
@@ -25,7 +28,7 @@ export default function Home() {
         </div>
       </div>
       <Services />
-      <Work />
+      <Work jsondata={workData} />
       <About />
       <Contact />
     </>

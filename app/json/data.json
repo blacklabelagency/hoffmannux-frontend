@@ -1,0 +1,292 @@
+{
+    "workTypes": ["recent","application","websites", "branding", "other"],
+    "work": [
+        {
+            "slug": "abreak",
+            "worktype" : ["application", "recent"],
+            "title": "aBreak Artist Discovery Platform",
+            "url": "abreakmusic.com",
+            "info" : {
+                "overview": {
+                    "text": "<p>aBreak music is a free new music and artist discovery platform based in the US. Launched in the spring of 2022, the website allows independent artists to fill out a profile and upload their music. The music is then reviewed by a team of AR reps to be placed on a bi-weekly playlist</p>",
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/abreak-portfolio-image.jpg"
+                },
+                "details": [
+                    {
+                        "title": "ARTIST PROFILES",
+                        "text": "<p>A user registration and profile system was developed that allows independent artists to register and upload a limited, free-tier, amount of music to the application. Artists can customize their profile with artist and song images, fill out a bio, choose their overall artist genres as well as individual song genres that allows aBreak to review music from all over the world.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/ABREAK-A.png"
+                    },
+                    {
+                        "title": "aBreak58 PLAYLIST",
+                        "text": "<p>Once artists upload their music, aBreak is able to review the music on the backend where users with an AR role have permissions to rate songs. aBreak admins are able to take in all the reviews as individual songs are chosen to add to a bi-monthly playlist. </p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/ABREAK-B-1.png"
+                    },
+                    {
+                        "title": "AR DASHBOARD",
+                        "text": "<p>Administrators are able to log in to the aBreak AR dashboard where they can play songs, review songs by giving them a rating and comments, and go deeper into artist profiles. Administrators are able to look over all reviews and decide which songs will make the next playlist. aBreak admins are able to review reports on which songs receive the most votes from users casting votes for songs on the playlists on the front-end. The backend also features the ability to create a variety of different playlists that can be placed on different pages on the website, keeping track of which songs are debuts and their movement on the playlists.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/ABREAK-C.png"
+                    }
+                ]
+
+            },
+            "content": "<p>aBreak music is a free new music and artist discovery platform based in the US. Launched in the spring of 2022, B.HOFFMANN designed the aBreak music artist website to the vision of the client, and developed a sophisticated platform to allow independent artists to register and upload music, as well as users to vote for their favorite songs. B.HOFFMANN then developed the admin system to allow AR reps, and other stakeholders, to collabortate in reviewing music and artists, add them to a variety of playlists, and analyze the traffic and votes of users interacting with the site. </p>",
+            "stack": [
+                "React",
+                "Next.js",
+                "Tailwind",
+                "AWS Lambda",
+                "AWS API Gatway",
+                "AWS S3",
+                "AWS RDS",
+                "Vercel",
+                "Headless CMS"
+            ],
+            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2024/01/abreak-portfolio-image.jpg",
+            "images": [
+                "https://blacklabelagency.com/wp-content/uploads/2024/01/abreak-portfolio-image.jpg",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/ABREAK-A.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/ABREAK-B.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/ABREAK-C.png"
+            ]
+        },
+        {
+            "slug": "best-friends",
+            "title": "Best Friends - Dementia Care Training",
+            "worktype" : ["websites"],
+            "url": "https://bestfriends.healthpropress.com",
+            "info" : {
+                "overview": {
+                    "text": "<p>Best Friends is an approach to dementia care. A nurse takes training courses in the Best Friends approach and then becomes certified as a Master Trainer. The Master Trainer Portal was developed to give a place for certified trainers to gain access to resources, keep up-to-date with their certifications, connect with other Master Trainers and ask questions in a support forum.</p>",
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-C.png"
+                },
+                "details": [
+                    {
+                        "title": "PORTAL",
+                        "text": "<p>The Best Friends portal is a place for those participating in the Master Trainers program to review their profile, sort through a variety of documentation in the resource center, and connect with other trainers in the forums. </p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-C.png"
+                    },
+                    {
+                        "title": "NOTIFICATION SYSTEM",
+                        "text": "<p>The notification system was designed and developed to keeps track of Master Trainer portfolio submissions, payments and renewal dates. A series of 15 automated messages go out to Master Trainers, or their Parent Companies depending on when they registered, if a payment or portfolio has been submitted or if they are being deactivated for lack of payment or participation. This automated payment system saves administrators a lot of time throughout the year when managing hundreds of Master Trainer certifications whose notification were manually produced in the past.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/BEST-FRIENDS-B.png"
+                    }
+                ]
+
+            },
+            "content": "<p>Best Friends is an approach to dementia care. A nurse takes training courses in the Best Friends approach and then becomes certified as a Master Trainer. B.HOFFMANN created the The Master Trainer Portal,  a place for those that are certified to gain access to resources, connect with other Master Trainers and ask questions in a support forum.</p><p>Along with the portal, B.HOFFMANN developed  a custom  notification system that  keeps track of Master Trainer portfolio, payments and renewal dates. A series of 15 automated messages go out to Master Trainers, or their Parent Companies depending on when they registered, if a payment or portfolio has been submitted or if they are being deactivated for lack of payment or participation. This automated payment system saves administrators a lot of time throughout the year when managing hundreds of Master Trainer certifications whose notification were manually produced in the past. </p>",
+            "stack": [
+                "PHP",
+                "Wordpress",
+                "Custom Theme",
+                "Javascript"
+            ],
+            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-C.png",
+            "images": [
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-C.png"
+            ]
+        },
+        {
+            "slug": "stm",
+            "title": "STM Academic Open Research",
+            "worktype" : ["websites"],
+            "url": "https://www.stm-assoc.org",
+            "info" : {
+                "overview": {
+                    "text": "<p>STM is the standard bearer for the academic publishing industry, working with its members to advance trusted research worldwide. They are committed to ensuring that the great discoveries of our time are communicated with pinpoint accuracy, clarity and integrity.</p>",
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-A.png"
+                },
+                "details": [
+                    {
+                        "title": "OA DASHBOARD",
+                        "text": "<p>The OA (Open Access) dashboard is a microsite designed to showcase the work of STM, providing visitors with an overview of open access analytics and trends. the microsite provides members with ways to access the data that STM has gathered throughout the year.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/STM-A.png"
+                    },
+                    {
+                        "title": "SDG Roadmap",
+                        "text": "<p>The 17 Sustainable Development Goals (SDGs) are the United Nations blueprint to deliver a more equitable, inclusive and sustainable society for both people and planet. Academic publishers play a pivotal role in helping to achieve these goals, both through their own organizational policies but also through the knowledge published in journals and books. Yet, it can be overwhelming for publishers to translate the SDG’s broad goals that seek to end poverty, address climate action and bring about gender equality to their daily work and organization.</p><p>STM, the leading voice for academic publishers, has created a roadmap that contains suggested concrete steps for all publishers, both big and small. From those just at the start of their journey, to others who already advanced and looking to accelerate.</p><p>Designed to inspire and support, this roadmap strives to equip colleagues across our sector by matching the practical steps with a dedicated toolkit of resources and examples to get everyone to take action towards achieving the SDGs today. </p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/STM-D.png"
+                    },
+                    {
+                        "title": "DOCUMENT LIBRARY",
+                        "text": "<p>The STM Document library is an important resource for those looking to learn more about STM goals various platforms. The mission of this project was to reinvent the document library, giving Administrators the ability to upload and categorize downloadable assets, as visitors are able to filter through and download the items they need.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/STM-B.png"
+                    },
+                    {
+                        "title": "STM CONFERENCES",
+                        "text": "<p>STM hosts a variety of in-person and virtual conferences throughout the year to bring together their global community and promote their mission. Each conference requires a unique design of web banners and other digital assets that adhere to the overall STM brand and style guides.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-C.png"
+                    }
+                ]
+
+            },
+            "content": "<p>B.HOFFMANN works with STM to design and develop online digital web pages, banners, and social media assets to engage their members. The OA (Open Access) dashboard is a microsite designed to showcase the work of STM, providing visitors with an overview of open access analytics and trends. the microsite provides members with ways to access the data that STM has gathered throughout the year.</p><p>B.HOFFMANN also collaborated with STM to reinvent their document library. Administrators are able to upload and categorize downloadable assets, as visitors are able to filter through and download the items they need.</p>",
+            "stack": [
+                "PHP",
+                "Wordpress",
+                "Javascript"
+            ],
+            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-A.png",
+            "images": [
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-A.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-B.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-C.png"
+            ]
+        },
+        {
+            "slug": "amsa",
+            "title": ["AMSA.org", "recent"],
+            "worktype" : "websites",
+            "url": "https://amsa.org",
+            "info" : {
+                "overview": {
+                    "text": "<p>AMSA is an independent, global association that exists to support, inform and inspire tomorrow’s physicians. The ones committed to making the world a better place through medicine. The American Medical Student Organization has over 33,000 members to which it provides resources, benefits and opportunities across the world.<p>",
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-A.png"
+                },
+                "details": [
+                    {
+                        "title": "WEBSITE REDESIGN",
+                        "text": "<p>The AMSA website is targeted to a wide audience of premed and medical students looking to be advocate for world where health care is accessible, medicine is affordable and systems support the diversity we see around us. The design and development of the AMSA website required the organization of a large amount of information that can be easily accessed, and often-times edited, by their student audience, chapter members, volunteers and core staff.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-B.png"
+                    },
+                    {
+                        "title": "LOGO AND STYLE GUIDE",
+                        "text": "<p> Multiple design iterations were presented to modernize AMSA's logo and overall style guide. The overall mission of the logo design was to appeal to a young audience and showcase the diversity of audience and progressive mission that AMSA represents.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-C.png"
+                    }
+                ]
+
+            },
+            "content": "<p>The American Medical Student Organization has over 33,000 members to which it provides resources, benefits and opportunities across the world.<p> B.HOFFMANN worked closely with AMSA to provide a fresh design and renovated wordpress environment. This new build is used daily by the core AMSA stakeholders, various sub-groups and chapters, and the members who frequent the website through a membership software integration.</p><p> B.HOFFMANN was also tasked with redesigning their logo, creating a style guide to reflect their values, and provide their marketing team with design assets to use across print collateral and social media.</p>",
+            "stack": [
+                "PHP",
+                "Wordpress",
+                "Custom Theme",
+                "Javascript"
+            ],
+            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-A.png",
+            "images": [
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-A.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-B.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-C.png"
+            ]
+        },
+        {
+            "slug": "hpp",
+            "title": "Health Professions Press - Publications Ecommerce",
+            "worktype" : ["websites"],
+            "url": "https://healthpropress.com",
+            "info" : {
+                "overview": {
+                    "text": "<p>Health Professions Press provides books, textbooks, programs, training, and toolkits in Alzheimer’s/dementia care, long-term care, senior living, leadership, healthcare management, and more.</p>",
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-A.png"
+                },
+                "details": [
+                    {
+                        "title": "ECOMMERCE DEVELOPMENT + DESIGN",
+                        "text": "<p>HPP, part of Brookes publishing, sells books and promotes authors to educate careworkers in the Dementia Care space. The HPP wordpress site uses the Woocommerce platform and integrates with 3rd party tools to calculate taxes, support marketing teams in promoting new products to existing customers, and provide HPP staff with detailed product and customer supports to improve the overall system. </p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-A.png"
+                    },
+                    {
+                        "title": "PUBLICATION MICROSITES",
+                        "text": "<p>Individual authors and books are marketed through microsites that provide customers with specific landing pages to learn more about the product. These microsites are uniquely designed and developed outside of the main HPP store, and also connect with the HPP blog, bringing in featured articles to support the marketing of the materials.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/HPP-C.png"
+                    }
+                ]
+
+            },
+            "content": "<p>Health Professions Press provides books, textbooks, programs, training, and toolkits in Alzheimer’s/dementia care, long-term care, senior living, leadership, healthcare management, and more</p><p>B.HOFFMANN designed and developed the HPP ecommerce website to give publishers of dementia care materials to sell their catalog online.  Customers are able to make single and bulk purchases, while also being better informed of authors and their publications in the dementia care space.</p>",
+            "stack": [
+                "PHP",
+                "Wordpress",
+                "WooCommerce",
+                "Custom Theme",
+                "Javascript"
+            ],
+            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-A.png",
+            "images": [
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-A.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-B.png"
+            ]
+        },
+        {
+            "slug": "nature-sacred",
+            "title": "Nature Sacred",
+            "worktype" : ["websites"],
+            "url": "https://naturesacred.org",
+            "info" : {
+                "overview": {
+                    "text": "<p>Nature Sacred exists to inspire, inform and guide communities in the creation of public green spaces—called Sacred Places—designed to improve mental health, unify communities and engender peace. </p>",
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/Nature-Sacred-A.png"
+                },
+                "details": [
+                    {
+                        "title": "WEBSITE DESIGN & DEVELOPMENT",
+                        "text": "<p>Designed and developed a new website for Nature Sacred, inspired by the work they do throughout the US. A friendly, bright and professional design was created to educate new visitors on their outreach, as well as provide tools, and a place for donations, for returning visitors and members of the Nature Sacred community. </p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/Nature-Sacred-A.png"
+                    },
+                    {
+                        "title": "PLACE DIRECTORY",
+                        "text": "<p>A maps integration with a filterable list, designed to make it easy for visitors to the website to find and visit new Sacred Places around the US, as well as get in touch with those that manage resources.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/Nature-Sacred-C.png"
+                    },
+                    {
+                        "title": "MEMBER INTRANET",
+                        "text": "<p>Firesouls can register with the intranet to be connected to other firesouls, submit events, fill out their own and view other profiles. They are also integrated with the front-end SP directory.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/Nature-Sacred-D.png"
+                    },
+                    {
+                        "title": "INFOGRAPHICS",
+                        "text": "<p>Infographics were designed as digital downloads and printed resources for events. The infographics were used to explain the process of creating a Sacred Place to new members of the Firesoul community.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/Nature-Sacred-B.png"
+                    }
+                ]
+
+            },
+            "content": "<p>Nature Sacred exists to inspire, inform and guide communities in the creation of public green spaces—called Sacred Places—designed to improve mental health, unify communities and engender peace. </p>            <p>B.HOFFMANN, in collaboration with the marketing team at Fresh Tonic, designed and built the Nature Sacred website in 2018. In 2019, B.HOFFMANN created the intranet to allow “Firesouls” to download resources, connect through the directory, schedule events at their Sacred Places and Request Funding for future projects. B.HOFFMANN has also helped to design numerous social media campaigns and downloadable infographics to help describe the Nature Sacred mission and methodologies</p>",
+            "stack": [
+                "PHP",
+                "Wordpress",
+                "Custom Theme",
+                "Javascript"
+            ],
+            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2023/10/Nature-Sacred-A.png",
+            "images": [
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/Nature-Sacred-A.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/Nature-Sacred-B.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/Nature-Sacred-C.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/Nature-Sacred-B-2.png"
+            ]
+        },
+        {
+            "slug": "agent-aerials",
+            "title": "Agent Aerials - Dashboard UI",
+            "worktype" : ["application"],
+            "url": null,
+            "info" : {
+                "overview": {
+                    "text": "<p>Agent Aerials provides drone inspections of structures like bridges, cell towers and buildings. The drones provide a means for companies to inspect a structure with a drone before sending out technicians to analyze and fix a variety of issues. </p>",
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AGENT-AERIALS.png"
+                },
+                "details": [
+                    {
+                        "title": "AA DASHBOARD",
+                        "text": "<p>A dashboard was designed to showcase to possible investors how drone technicians could interact with new and old drone reports and decide on the next actions needed with a specific structure.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AGENT-AERIALS.png"
+                    }
+                ]
+
+            },
+            "content": "<p>Agent Aerials provides drone inspections of structures like bridges, cell towers and buildings. The drones provide a means for companies to inspect a structure with a drone before sending out technicians to analyze and fix a variety of issues. </p><p>B.HOFFMANN designed and developed the user interface for the Agent Aerials Drone Management Software. The system allows administrators and technicians to log in, view a dashboard of ongoing and past inspections. From there they are able to assign technicians, add service notes, view photo galleries and resource documentation of structures and set priorities to inspections.</p>",
+            "stack": [
+                "Javascript",
+                "HTML",
+                "UI Design"
+            ],
+            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2023/10/AGENT-AERIALS.png",
+            "images": [
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/AGENT-AERIALS.png"
+            ]
+        }
+    ]
+}

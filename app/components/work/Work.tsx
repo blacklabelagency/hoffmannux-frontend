@@ -1,10 +1,11 @@
 'use client'
-import { useEffect, useState } from "react";
-import WorkDetail from "./WorkDetail";
-import WorkTabs from "./WorkTabs";
-import WorkList from "./WorkList";
+import { useEffect, useState } from "react"
+import WorkDetail from "./WorkDetail"
+import WorkTabs from "./WorkTabs"
+import WorkList from "./WorkList"
+import "@/app/interfaces/WorkData.interface"
 
-export default function Work(){
+export default function Work({jsondata}:{jsondata:WorkData}){
 
     const [workDetailOn, setWorkDetailOn] = useState(false);
     const [workDetailTitle, setWorkDetailTitle] = useState<string>("");
@@ -20,7 +21,7 @@ export default function Work(){
     }
 
     const handleWorkTabClick = (workType:string) =>{
-        
+        setWorkType(workType);
     }
 
     useEffect(()=> {
@@ -34,7 +35,7 @@ export default function Work(){
                 <div className="text-white w-auto text-sm px-[15vw] section-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh neque, ultrices a hendrerit sit amet, hendrerit in nisl. </div>
             </div>
             <WorkTabs 
-                workList={[]} 
+                workList={jsondata.workTypes} 
                 workTabClick={(workType)=>handleWorkTabClick(workType)} 
             />
             <WorkList 
@@ -42,16 +43,12 @@ export default function Work(){
                 workList={["Item 1", "Item 2", "Item 3"]}
                 handleWorkItemClick={(workType)=>handleWorkItemClick(workType)}
             />
-            
-            
-            
             <WorkDetail 
                 workData={{title: "TEST", description: "test desc", images: []} } 
                 workDetailClose={workDetailClose}
                 workDetailOn={workDetailOn}
                 workDetailTitle={workDetailTitle}
             />
-            
         </div>
     )
 }

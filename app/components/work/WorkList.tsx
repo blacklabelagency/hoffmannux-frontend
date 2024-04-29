@@ -1,8 +1,11 @@
 'use client'
 import { RiArrowRightLine } from "react-icons/ri";
 
-export default function WorkList({workType, workList, handleWorkItemClick}: 
-    {
+export default function WorkList({
+        workType, 
+        workList, 
+        handleWorkItemClick
+    }:{
         workType:string, 
         workList:Array<string>,
         handleWorkItemClick:(workType:string)=>any
@@ -10,10 +13,13 @@ export default function WorkList({workType, workList, handleWorkItemClick}:
 
     return (
         <div className="work-list">
-            <div className="work-item" onClick={() => handleWorkItemClick('websites')}>
-                <h3>Websites</h3>
+            
+                <div className="work-item" onClick={() => handleWorkItemClick('websites')}>
+                <h3>{workType}</h3>
                 <RiArrowRightLine />
-            </div>
+                </div>
+            
+            
             <div className="work-item" onClick={() => handleWorkItemClick('applications')}>
                 <h3>Applications</h3>
                 <RiArrowRightLine />

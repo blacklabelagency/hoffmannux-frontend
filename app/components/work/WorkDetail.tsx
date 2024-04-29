@@ -1,10 +1,5 @@
-import { RiArrowLeftLine, RiCloseLine } from "react-icons/ri";
-
-interface WorkDetail {
-    title: string,
-    description: string,
-    images: []
-}
+import { RiArrowLeftLine, RiCloseLine } from "react-icons/ri"
+import "@/app/interfaces/WorkDetail.interface"
 
 export default function WorkDetail(
     {
