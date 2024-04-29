@@ -40,7 +40,7 @@ export default function Work({jsondata}:{jsondata:WorkData}){
             />
             <WorkList 
                 workType={workType}
-                workList={["Item 1", "Item 2", "Item 3"]}
+                workList={jsondata.work}
                 handleWorkItemClick={(workType)=>handleWorkItemClick(workType)}
             />
             <WorkDetail 
