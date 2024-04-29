@@ -16,7 +16,7 @@ export default function WorkTabs({workList, workTabClick}:{workList:Array<string
             <div className="flex items-center justify-center mt-6">
                 {workList.map((worktype:string, i:number) => {
                     return (
-                        <button className={`px-4 ${worktype==currentWorkType ? "active" : ""}`} key={`worktab-`+i} onClick={()=>handleWorkTabClick(worktype)}>{worktype.toUpperCase()}</button>    
+                        <button className={`px-4 py-2 mx-4 ${worktype==currentWorkType ? "active" : ""}`} key={`worktab-`+i} onClick={()=>handleWorkTabClick(worktype)}>{worktype.toUpperCase()}</button>    
                     )
                 })}
             </div>

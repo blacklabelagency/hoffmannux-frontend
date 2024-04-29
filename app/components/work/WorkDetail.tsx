@@ -1,5 +1,6 @@
 import { RiArrowLeftLine, RiCloseLine } from "react-icons/ri"
 import "@/app/interfaces/WorkDetail.interface"
+import { Interweave } from "interweave"
 
 export default function WorkDetail(
     {
@@ -12,18 +13,20 @@ export default function WorkDetail(
         workDetailOn:boolean, 
         workDetailClose:()=> any,
         workDetailTitle:string
-
     }){
     
+        
     return (
         <div className={`work-detail ${workDetailOn ? "work-detail-on" : "work-detail-off"}`}>
-                <div className="flex items-center justify-between">
-                    <h2 className="flex items-center"><button onClick={()=>workDetailClose()} className="text-4xl mr-2"><RiArrowLeftLine /></button>{workDetailTitle.toUpperCase()}</h2>
+                <div className="border-b-[1px] border-color-white p-2 text-center">
                     <button onClick={()=>workDetailClose()} className="text-4xl"><RiCloseLine /></button>
                 </div>
-                <div>
-                    <h2>{workData?.title}</h2>
-                    <p>{workData?.description}</p>
+                <div className="work-detail-body">
+                    <div className="text-center">
+                        <h2>{workData?.title.toUpperCase()}</h2>
+                        <a href={workData?.url} target="_blank" className="mb-4 block underline">{workData?.url}</a>
+                        <Interweave content={workData?.info.overview.text} />
+                    </div>
                 </div>
         </div>
     )

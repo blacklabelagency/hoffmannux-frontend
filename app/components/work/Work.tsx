@@ -9,11 +9,13 @@ export default function Work({jsondata}:{jsondata:WorkData}){
 
     const [workDetailOn, setWorkDetailOn] = useState(false);
     const [workDetailTitle, setWorkDetailTitle] = useState<string>("");
+    const [workItem, setWorkItem] = useState<WorkDetail | null>(null);
     const [workType, setWorkType] = useState("recent");
 
-    const handleWorkItemClick = (type:string) => {
-        setWorkDetailTitle(type);
+    const handleWorkItemClick = (workItem:WorkDetail) => {
+        setWorkDetailTitle(workItem.title);
         setWorkDetailOn(true);
+        setWorkItem(workItem);
     }
 
     const workDetailClose = () => {
@@ -41,10 +43,10 @@ export default function Work({jsondata}:{jsondata:WorkData}){
             <WorkList 
                 workType={workType}
                 workList={jsondata.work}
-                handleWorkItemClick={(workType)=>handleWorkItemClick(workType)}
+                handleWorkItemClick={(workItem)=>handleWorkItemClick(workItem)}
             />
             <WorkDetail 
-                workData={{title: "TEST", description: "test desc", images: []} } 
+                workData={workItem} 
                 workDetailClose={workDetailClose}
                 workDetailOn={workDetailOn}
                 workDetailTitle={workDetailTitle}

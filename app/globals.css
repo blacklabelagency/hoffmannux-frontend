@@ -179,7 +179,7 @@ main {
     height: 100%;
     background: var(--hoffmann-blue);
     position: fixed;
-    padding: 25px;
+    padding: 0px;
     z-index: 10;
 
     &.work-detail-on {
@@ -193,15 +193,21 @@ main {
       right: 100%;
       animation: work-detail-animation-off .2s ease-in-out;
     }
+
+    .work-detail-body {
+      padding: 25px 10vw;
+    }
   }
 }
 
 .work-tabs {
   button {
-    border-right: 1px solid var(--hoffmann-blue);
+    border: 1px solid var(--hoffmann-blue);
+    background: transparent;
 
     &.active {
-      color: var(--hoffmann-blue);
+      background: var(--hoffmann-blue);
+      color: white;
     }
   }
 }

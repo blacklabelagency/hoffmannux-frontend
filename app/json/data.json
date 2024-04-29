@@ -1,9 +1,9 @@
 {
-    "workTypes": ["recent","application","websites", "branding", "other"],
+    "workTypes": ["recent","applications","websites", "branding", "other"],
     "work": [
         {
             "slug": "abreak",
-            "worktype" : ["application", "recent"],
+            "worktype" : ["applications", "recent"],
             "title": "aBreak Artist Discovery Platform",
             "url": "abreakmusic.com",
             "info" : {
@@ -135,8 +135,8 @@
         },
         {
             "slug": "amsa",
-            "title": ["AMSA.org", "recent"],
-            "worktype" : "websites",
+            "title": "AMSA.org",
+            "worktype" : ["websites"],
             "url": "https://amsa.org",
             "info" : {
                 "overview": {
