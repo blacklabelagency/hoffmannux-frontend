@@ -1,3 +1,4 @@
+'use client'
 export default function WorkTabs({workList}:{workList:[]}){
     return (
         <div className="work-tabs w-full m-auto">
@@ -9,5 +10,6 @@ export default function WorkTabs({workList}:{workList:[]}){
                 <button>OTHER</button>
             </div>
         </div>
+        
     )
 }
