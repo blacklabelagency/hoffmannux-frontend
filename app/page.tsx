@@ -9,17 +9,21 @@ import jsonData from "./json/data.json"
 export default function Home() {
 
   const workData = jsonData;
+  const tagline:string = "OMNICHANNEL APPLICATIONS FOR THE WEB";
+  const taglineString = tagline.split('').map(letter => `<span>${letter}</span>`).join('');
 
   return (
     <>
-      <div className="min-h-screen w-full flex homepage h-[100vh] px-12">
+      <div className="min-h-screen w-full flex homepage h-[100vh]">
         <div className="left-side w-full md:w-5/12 flex flex-col items-center justify-center relative">
             <div className="text-center">
               <div className="mainlogo m-auto w-auto inline-block">
-                <img src="/images/HoffmannUX-Logo.png" />
+                <img src="/images/hoffma-logo-large.png" />
+                <h4 dangerouslySetInnerHTML={{ __html: taglineString }} />
+                
               </div>
               <div className="mt-6">
-                <p>Crafts the journey users embark on when engaging with a company, exploring its offerings, and diving into its products and services.</p>
+                <p>We help to craft the journey users embark on when engaging with an organization, exploring its offerings, and diving into its products and services.</p>
               </div>
             </div>
         </div>

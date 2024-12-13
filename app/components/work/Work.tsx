@@ -32,25 +32,26 @@ export default function Work({jsondata}:{jsondata:WorkData}){
 
     return (
         <div className="page-section page-section-work">
-            <div className="section-header text-center">
-                <h1 className="text-[var(--hoffmann-blue)] section-title w-auto m-auto">OUR WORK</h1>
-                <div className="text-white w-auto text-sm px-[15vw] section-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh neque, ultrices a hendrerit sit amet, hendrerit in nisl. </div>
-            </div>
-            <WorkTabs 
-                workList={jsondata.workTypes} 
-                workTabClick={(workType)=>handleWorkTabClick(workType)} 
-            />
-            <WorkList 
-                workType={workType}
-                workList={jsondata.work}
-                handleWorkItemClick={(workItem)=>handleWorkItemClick(workItem)}
-            />
-            <WorkDetail 
-                workData={workItem} 
-                workDetailClose={workDetailClose}
-                workDetailOn={workDetailOn}
-                workDetailTitle={workDetailTitle}
-            />
+            <details>
+                <summary className="section-header">WORK</summary>
+                <div className="page-section__body">
+                    <WorkTabs 
+                        workList={jsondata.workTypes} 
+                        workTabClick={(workType)=>handleWorkTabClick(workType)} 
+                    />
+                    <WorkList 
+                        workType={workType}
+                        workList={jsondata.work}
+                        handleWorkItemClick={(workItem)=>handleWorkItemClick(workItem)}
+                    />
+                    <WorkDetail 
+                        workData={workItem} 
+                        workDetailClose={workDetailClose}
+                        workDetailOn={workDetailOn}
+                        workDetailTitle={workDetailTitle}
+                    />
+                </div>
+            </details>
         </div>
     )
 }

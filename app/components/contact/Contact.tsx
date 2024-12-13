@@ -1,11 +1,12 @@
 export default function Contact(){
     return (
-        <div className="page-section">
-            <div className="section-header text-center">
-                <h1 className="text-[var(--hoffmann-blue)] section-title w-auto text-center m-auto">CONTACT</h1>
-            </div>
-            
-            <p>contact form</p>
+        <div className="page-section page-section-contact">
+            <details>
+                <summary className="section-header">CONTACT</summary>
+                <div className="page-section__body">
+                    <p>contact form</p>
+                </div>
+            </details>
         </div>
     )
 }
