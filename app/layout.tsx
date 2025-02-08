@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
 import '@fontsource/chakra-petch';
 import '@fontsource/plaster';
+import './styles/main.scss';
 
 import Navigation from "./components/navigation/Navigation";
 

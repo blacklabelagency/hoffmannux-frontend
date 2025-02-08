@@ -26,39 +26,9 @@ export default function Template({children}:{children:React.ReactNode}){
           timeline.to(".gsap_section_title", {
             toggleActions: 'restart reverse resume restart',
             duration: .5,
-            opacity: 1,
-            translateX: "500px"
+            opacity: 1
           });
     
-          /*const gsap_red = gsap.timeline({
-            scrollTrigger: {
-              trigger: ".gsap_red",
-              toggleActions: "restart pause reverse pause"
-            }
-          });
-    
-          gsap_red.to(".gsap_red", {
-            duration: 1,
-            backgroundColor: "#FFA500",
-            ease: "none"
-          })
-          .to(".gsap_red p", {
-            scale: 2,
-            repeat: -1,
-            yoyo: true,
-            ease: "power2"
-          });
-    
-          const yoyo = gsap.timeline({
-            scrollTrigger: ".yoyo"
-          });
-    
-          yoyo.to(".yoyo p", {
-            scale: 2,
-            repeat: -1,
-            yoyo: true,
-            ease: "power2"
-          });*/
         }, scrollPage); // Scope selector
         return () => ctx.revert(); // cleanup
       }, []);

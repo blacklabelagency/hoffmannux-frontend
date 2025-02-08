@@ -1,10 +1,12 @@
 'use client'
 
+import Summary from "../summary/Summary"
+
 export default function Services(){
     return (
-        <div className="page-section page-section-services">
+        <div className="page-section page-section-services gsap_services">
             <details>
-                <summary className="section-header">SERVICES</summary>
+                <Summary title={"SERVICES"} />
                 <div className="page-section__body">
                     <div className="flex align-start flex-wrap">
                         <div className="service-item">

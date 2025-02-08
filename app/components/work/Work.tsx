@@ -4,6 +4,8 @@ import WorkDetail from "./WorkDetail"
 import WorkTabs from "./WorkTabs"
 import WorkList from "./WorkList"
 import "@/app/interfaces/WorkData.interface"
+import PlusSign from "../icons/PlusSign"
+import Summary from "../summary/Summary"
 
 export default function Work({jsondata}:{jsondata:WorkData}){
 
@@ -11,6 +13,7 @@ export default function Work({jsondata}:{jsondata:WorkData}){
     const [workDetailTitle, setWorkDetailTitle] = useState<string>("");
     const [workItem, setWorkItem] = useState<WorkDetail | null>(null);
     const [workType, setWorkType] = useState("recent");
+    const [showWorkDetails, setShowWorkDetails] = useState(false);
 
     const handleWorkItemClick = (workItem:WorkDetail) => {
         setWorkDetailTitle(workItem.title);
@@ -26,6 +29,10 @@ export default function Work({jsondata}:{jsondata:WorkData}){
         setWorkType(workType);
     }
 
+    const handleSummaryClick = () => {
+        setShowWorkDetails(showWorkDetails ? false: true);
+    }
+
     useEffect(()=> {
         workDetailOn == true ? document.body.style.overflowY = "hidden" : document.body.style.overflowY = "auto";
     }, [workDetailOn])
@@ -33,7 +40,7 @@ export default function Work({jsondata}:{jsondata:WorkData}){
     return (
         <div className="page-section page-section-work">
             <details>
-                <summary className="section-header">WORK</summary>
+                <Summary title={"WORK"} />
                 <div className="page-section__body">
                     <WorkTabs 
                         workList={jsondata.workTypes} 

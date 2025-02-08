@@ -16,16 +16,15 @@ export default function WorkList({
     
     useEffect(()=>{
         let filteredWorkList = workList.filter((item)=> item.worktype?.includes(workType));
-        console.log(filteredWorkList);
         setCurrentWorkList(filteredWorkList);
     }, [workType]);
 
     return (
         <div className="work-list">
-                {currentWorkList && currentWorkList.map((workItem)=>(
-                    <div className="work-item" onClick={() => handleWorkItemClick(workItem)}>
-                    <h3>{workItem.title}</h3>
-                    <RiArrowRightLine />
+                {currentWorkList && currentWorkList.map((workItem, index)=>(
+                    <div key={`work-item-${index}`}className="work-item" onClick={() => handleWorkItemClick(workItem)}>
+                        <h3>{workItem.title}</h3>
+                        <RiArrowRightLine />
                     </div>
                 ))}
         </div>

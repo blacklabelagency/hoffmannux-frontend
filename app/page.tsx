@@ -4,12 +4,14 @@ import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
 import Work from "./components/work/Work";
 import jsonData from "./json/data.json"
+import HomeAnimation from "./components/homeAnimation/HomeAnimation";
+import HomeAnimationFigma from "./components/homeAnimation/HomeAnimationFigma";
 
 
 export default function Home() {
 
   const workData = jsonData;
-  const tagline:string = "OMNICHANNEL APPLICATIONS FOR THE WEB";
+  const tagline:string = "DEVELOPMENT + DESIGN";
   const taglineString = tagline.split('').map(letter => `<span>${letter}</span>`).join('');
 
   return (
@@ -18,7 +20,7 @@ export default function Home() {
         <div className="left-side w-full md:w-5/12 flex flex-col items-center justify-center relative">
             <div className="text-center">
               <div className="mainlogo m-auto w-auto inline-block">
-                <img src="/images/hoffma-logo-large.png" />
+                <img src="/hoffmann-logo-final.png" />
                 <h4 dangerouslySetInnerHTML={{ __html: taglineString }} />
                 
               </div>
@@ -27,10 +29,12 @@ export default function Home() {
               </div>
             </div>
         </div>
-        <div className="right-side w-full md:w-7/12 flex items-center justify-center pb-2">
-          <img src="/homepage-graphics.png" />
+        <div className="right-side w-full md:w-7/12 flex  relative justify-center pb-2">
+          {/* <HomeAnimation /> */ }
+           <img className="home-animation-guide" src="/homepage-graphics.png" /> 
         </div>
       </div>
+      
       <Services />
       <Work jsondata={workData} />
       <About />
