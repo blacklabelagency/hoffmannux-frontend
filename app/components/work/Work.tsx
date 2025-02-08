@@ -7,7 +7,7 @@ import "@/app/interfaces/WorkData.interface"
 import PlusSign from "../icons/PlusSign"
 import Summary from "../summary/Summary"
 
-export default function Work({jsondata}:{jsondata:WorkData}){
+export default function Work({jsondata, sectionID}:{jsondata:WorkData, sectionID:string}){
 
     const [workDetailOn, setWorkDetailOn] = useState(false);
     const [workDetailTitle, setWorkDetailTitle] = useState<string>("");
@@ -38,7 +38,7 @@ export default function Work({jsondata}:{jsondata:WorkData}){
     }, [workDetailOn])
 
     return (
-        <div className="page-section page-section-work">
+        <div className="page-section page-section-work" id={sectionID}>
             <details>
                 <Summary title={"WORK"} />
                 <div className="page-section__body">

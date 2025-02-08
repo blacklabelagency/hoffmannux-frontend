@@ -2,9 +2,9 @@
 
 import Summary from "../summary/Summary"
 
-export default function Services(){
+export default function Services({sectionID}:{sectionID:string}){
     return (
-        <div className="page-section page-section-services gsap_services">
+        <div id={sectionID} className="page-section page-section-services gsap_services">
             <details>
                 <Summary title={"SERVICES"} />
                 <div className="page-section__body">

@@ -30,6 +30,7 @@
 body {
   color: white;
   background: var(--hoffmann-gray);
+  scroll-behavior: smooth;
 }
 
 h1,h2,h3 {
@@ -495,7 +496,7 @@ main {
   }
 
   p {
-    color: var(--hoffmann-lightgray);
+    color: #333;
   }
 }
 

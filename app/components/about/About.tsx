@@ -1,9 +1,9 @@
 'use client'
 import Summary from "../summary/Summary";
 
-export default function About(){
+export default function About({sectionID}:{sectionID:string}){
     return (
-        <div className="page-section page-section-about">
+        <div className="page-section page-section-about" id={sectionID}>
              <details>
                 <Summary title={"ABOUT"} />
                 <div className="page-section__body">
