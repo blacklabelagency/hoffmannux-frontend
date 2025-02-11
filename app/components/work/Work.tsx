@@ -42,15 +42,11 @@ export default function Work({jsondata, sectionID}:{jsondata:WorkData, sectionID
             <details>
                 <Summary title={"WORK"} />
                 <div className="page-section__body">
-                    <WorkTabs 
-                        workList={jsondata.workTypes} 
-                        workTabClick={(workType)=>handleWorkTabClick(workType)} 
-                    />
                     <WorkList 
                         workType={workType}
                         workList={jsondata.work}
                         handleWorkItemClick={(workItem)=>handleWorkItemClick(workItem)}
-                    />
+                    /> 
                     <WorkDetail 
                         workData={workItem} 
                         workDetailClose={workDetailClose}

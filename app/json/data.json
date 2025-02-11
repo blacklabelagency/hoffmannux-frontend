@@ -9,7 +9,7 @@
             "info" : {
                 "overview": {
                     "text": "<p>aBreak music is a free new music and artist discovery platform based in the US. Launched in the spring of 2022, the website allows independent artists to fill out a profile and upload their music. The music is then reviewed by a team of AR reps to be placed on a bi-weekly playlist</p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/abreak-portfolio-image.jpg"
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/abreak-logo-ALL-WHITE-TEXT-1.png"
                 },
                 "details": [
                     {
@@ -52,13 +52,13 @@
         },
         {
             "slug": "best-friends",
-            "title": "Best Friends - Dementia Care Training",
+            "title": "Best Friends Dementia Care Training",
             "worktype" : ["websites"],
             "url": {"url": "https://bestfriends.healthpropress.com", "text": "bestfriends.healthpropress.com"},
             "info" : {
                 "overview": {
                     "text": "<p>Best Friends is an approach to dementia care. A nurse takes training courses in the Best Friends approach and then becomes certified as a Master Trainer. The Master Trainer Portal was developed to give a place for certified trainers to gain access to resources, keep up-to-date with their certifications, connect with other Master Trainers and ask questions in a support forum.</p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-C.png"
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/bestfriends-logo-white.png"
                 },
                 "details": [
                     {
@@ -88,13 +88,13 @@
         },
         {
             "slug": "stm",
-            "title": "STM Academic Open Research",
+            "title": "International Association of Scientific, Technical & Medical Publishers (STM)",
             "worktype" : ["websites"],
             "url": {"url": "https://www.stm-assoc.org", "text": "stm-assoc.org"},
             "info" : {
                 "overview": {
                     "text": "<p>STM is the standard bearer for the academic publishing industry, working with its members to advance trusted research worldwide. They are committed to ensuring that the great discoveries of our time are communicated with pinpoint accuracy, clarity and integrity.</p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-A.png"
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/stm-logo-white.png"
                 },
                 "details": [
                     {
@@ -135,13 +135,13 @@
         },
         {
             "slug": "amsa",
-            "title": "AMSA.org",
+            "title": "American Medical Student Association (AMSA)",
             "worktype" : ["websites"],
             "url": {"url": "https://amsa.org", "text": "amsa.org"},
             "info" : {
                 "overview": {
                     "text": "<p>AMSA is an independent, global association that exists to support, inform and inspire tomorrow’s physicians. The ones committed to making the world a better place through medicine. The American Medical Student Organization has over 33,000 members to which it provides resources, benefits and opportunities across the world.<p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-A.png"
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/amsa-logo.png"
                 },
                 "details": [
                     {
@@ -173,13 +173,13 @@
         },
         {
             "slug": "hpp",
-            "title": "Health Professions Press - Publications Ecommerce",
+            "title": "Health Professions Press",
             "worktype" : ["websites"],
             "url": {"url": "https://healthpropress.com", "text": "healthpropress.com"},
             "info" : {
                 "overview": {
                     "text": "<p>Health Professions Press provides books, textbooks, programs, training, and toolkits in Alzheimer’s/dementia care, long-term care, senior living, leadership, healthcare management, and more.</p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-A.png"
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/HPP-Brookes-logo-white.png"
                 },
                 "details": [
                     {
@@ -217,7 +217,7 @@
             "info" : {
                 "overview": {
                     "text": "<p>Nature Sacred exists to inspire, inform and guide communities in the creation of public green spaces—called Sacred Places—designed to improve mental health, unify communities and engender peace. </p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/Nature-Sacred-A.png"
+                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/ns-logo-white.png"
                 },
                 "details": [
                     {
@@ -256,36 +256,6 @@
                 "https://blacklabelagency.com/wp-content/uploads/2023/10/Nature-Sacred-B.png",
                 "https://blacklabelagency.com/wp-content/uploads/2023/10/Nature-Sacred-C.png",
                 "https://blacklabelagency.com/wp-content/uploads/2023/10/Nature-Sacred-B-2.png"
-            ]
-        },
-        {
-            "slug": "agent-aerials",
-            "title": "Agent Aerials - Dashboard UI",
-            "worktype" : ["application"],
-            "url": null,
-            "info" : {
-                "overview": {
-                    "text": "<p>Agent Aerials provides drone inspections of structures like bridges, cell towers and buildings. The drones provide a means for companies to inspect a structure with a drone before sending out technicians to analyze and fix a variety of issues. </p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AGENT-AERIALS.png"
-                },
-                "details": [
-                    {
-                        "title": "AA DASHBOARD",
-                        "text": "<p>A dashboard was designed to showcase to possible investors how drone technicians could interact with new and old drone reports and decide on the next actions needed with a specific structure.</p>",
-                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AGENT-AERIALS.png"
-                    }
-                ]
-
-            },
-            "content": "<p>Agent Aerials provides drone inspections of structures like bridges, cell towers and buildings. The drones provide a means for companies to inspect a structure with a drone before sending out technicians to analyze and fix a variety of issues. </p><p>B.HOFFMANN designed and developed the user interface for the Agent Aerials Drone Management Software. The system allows administrators and technicians to log in, view a dashboard of ongoing and past inspections. From there they are able to assign technicians, add service notes, view photo galleries and resource documentation of structures and set priorities to inspections.</p>",
-            "stack": [
-                "Javascript",
-                "HTML",
-                "UI Design"
-            ],
-            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2023/10/AGENT-AERIALS.png",
-            "images": [
-                "https://blacklabelagency.com/wp-content/uploads/2023/10/AGENT-AERIALS.png"
             ]
         }
     ]
