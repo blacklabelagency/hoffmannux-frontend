@@ -7,6 +7,7 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --hoffmann-blue: #0198AD;
+  --hoffmann-blue-bright: #00e1ff;
   --hoffmann-gray: #232323;
   --hoffmann-red: #D45822;
   --hoffmann-yellow: #D1B627;
@@ -528,7 +529,7 @@ details[open] {
       padding: 25px 0px;
       text-align: center;
       h2 {
-          color: var(--hoffmann-blue);
+          color: var(--hoffmann-blue-bright);
           font-weight: bold;
         }
     }
@@ -551,6 +552,22 @@ details[open] {
 
           .work-item-content {
             text-align: left;
+
+            ul {
+              li {
+                display: flex;
+                align-items: center;
+                margin-bottom: 1rem;
+                &:before {
+                  content: " ";
+                  background: var(--hoffmann-blue);
+                  width: 15px;
+                  height: 15px;
+                  border-radius: 50%;
+                  margin-right: .55rem;
+                }
+              }
+            }
           }
           
           &:nth-child(even){
@@ -578,7 +595,8 @@ details[open] {
           }
 
           h3 {
-            color: var(--hoffmann-blue);
+            color: var(--hoffmann-blue-bright);
+            font-weight: bold;
             margin-bottom: 15px;
           }
 

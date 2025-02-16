@@ -40,6 +40,15 @@ export default function WorkDetail(
                                             <div>
                                                 <h3>{workItem.title}</h3>
                                                 <div className="work-details-text"><Interweave content={workItem.text} /></div>
+                                                {workItem.stats && (
+                                                    <ul>
+                                                        {workItem.stats?.map((stat,i)=>{
+                                                            return (
+                                                                <li key={`work-item-stat-${i}`}>{stat}</li>
+                                                            )
+                                                        })}
+                                                    </ul>
+                                                )}
                                             </div>
                                         </div>
                                     </div>

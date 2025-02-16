@@ -18,5 +18,6 @@ interface WorkDetail {
 interface WorkDetailDetail {
     title:string,
     text:string,
-    image:string
+    image:string,
+    stats:Array<string> | null
 }

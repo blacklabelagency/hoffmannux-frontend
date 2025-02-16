@@ -13,18 +13,30 @@
                 },
                 "details": [
                     {
-                        "title": "ARTIST PROFILES",
+                        "title": "ARTIST REGISTRATION, PROFILES & SONG UPLOADS",
                         "text": "<p>A user registration and profile system was developed that allows independent artists to register and upload a limited, free-tier, amount of music to the application. Artists can customize their profile with artist and song images, fill out a bio, choose their overall artist genres as well as individual song genres that allows aBreak to review music from all over the world.</p>",
+                        "stats" : [
+                            "Over 5,000 artists and growing.",
+                            "Over 8,000 songs uploaded and reviewed."
+                        ],
                         "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/ABREAK-A.png"
                     },
                     {
-                        "title": "aBreak58 PLAYLIST",
+                        "title": "ABREAK58 PLAYLIST & VOTING SYSTEM",
                         "text": "<p>Once artists upload their music, aBreak is able to review the music on the backend where users with an AR role have permissions to rate songs. aBreak admins are able to take in all the reviews as individual songs are chosen to add to a bi-monthly playlist. </p>",
+                        "stats" : [
+                            "134 playlists with over 1 million user votes.",
+                            "40,000 active users in 2024",
+                            "Average 200 daily visitors"
+                        ],
                         "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/ABREAK-B-1.png"
                     },
                     {
                         "title": "AR DASHBOARD",
                         "text": "<p>Administrators are able to log in to the aBreak AR dashboard where they can play songs, review songs by giving them a rating and comments, and go deeper into artist profiles. Administrators are able to look over all reviews and decide which songs will make the next playlist. aBreak admins are able to review reports on which songs receive the most votes from users casting votes for songs on the playlists on the front-end. The backend also features the ability to create a variety of different playlists that can be placed on different pages on the website, keeping track of which songs are debuts and their movement on the playlists.</p>",
+                        "stats" : [
+                            "13,000 song reviews and growing"
+                        ],
                         "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/ABREAK-C.png"
                     }
                 ]
