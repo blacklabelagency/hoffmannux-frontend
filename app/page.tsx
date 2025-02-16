@@ -49,7 +49,7 @@ export default function Home() {
             
             if(detail.parentElement){
               setCurrentTab(detail.parentElement.id);
-              detail.parentElement.scrollIntoView();
+              detail.parentElement.scrollIntoView({behavior: "smooth"});
             }
           
           }
@@ -67,7 +67,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="min-h-screen w-full flex homepage h-[100vh]">
+      <div className="min-h-[50vh] w-full flex homepage h-[60vh]">
         <div className="left-side w-full md:w-5/12 flex flex-col items-center justify-center relative">
             <div className="text-center">
               <div className="mainlogo m-auto w-auto inline-block">

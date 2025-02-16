@@ -31,12 +31,12 @@ export default function WorkDetail(
                         </div>
                     </div>
                     <div className="text-center work-detail-body-inner">
-                        <div>
-                            {workData?.info.details.map((workItem) => {
+                        
+                            {workData?.info.details.map((workItem, i) => {
                                 return (
-                                    <div className="flex items-stretch text-left work-item">
-                                        <div className="w-2/6 work-item-bgimage" style={{backgroundImage: `url(${workItem.image})`}}></div>
-                                        <div className="w-4/6 px-6 flex items-center work-item-content">
+                                    <div key={`work-item-${i}`} className="work-item">
+                                        <div className="work-item-bgimage" style={{backgroundImage: `url(${workItem.image})`}}></div>
+                                        <div className="work-item-content">
                                             <div>
                                                 <h3>{workItem.title}</h3>
                                                 <div className="work-details-text"><Interweave content={workItem.text} /></div>
@@ -45,7 +45,7 @@ export default function WorkDetail(
                                     </div>
                                 )
                             })}
-                        </div>
+                        
                     </div>
                 </div>
         </div>

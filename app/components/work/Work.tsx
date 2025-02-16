@@ -6,6 +6,7 @@ import WorkList from "./WorkList"
 import "@/app/interfaces/WorkData.interface"
 import PlusSign from "../icons/PlusSign"
 import Summary from "../summary/Summary"
+import PageSectionDivider from "../pageSectionDivider/PageSectionDivider"
 
 export default function Work({jsondata, sectionID}:{jsondata:WorkData, sectionID:string}){
 
@@ -42,6 +43,10 @@ export default function Work({jsondata, sectionID}:{jsondata:WorkData, sectionID
             <details>
                 <Summary title={"WORK"} />
                 <div className="page-section__body">
+                    <PageSectionDivider />
+                    <div className="page-section__overview">
+                        <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor lacus et erat molestie, quis cursus odio tempor. Aenean accumsan risus nisi. Etiam tincidunt ante sodales lacus consequat accumsan. Nunc tristique ultrices ultrices. Cras auctor rutrum mauris, convallis tristique dolor consequat quis.</em>
+                    </div>
                     <WorkList 
                         workType={workType}
                         workList={jsondata.work}

@@ -1,5 +1,6 @@
 'use client'
 
+import PageSectionDivider from "../pageSectionDivider/PageSectionDivider"
 import Summary from "../summary/Summary"
 
 export default function Services({sectionID}:{sectionID:string}){
@@ -8,6 +9,10 @@ export default function Services({sectionID}:{sectionID:string}){
             <details>
                 <Summary title={"SERVICES"} />
                 <div className="page-section__body">
+                    <PageSectionDivider />
+                    <div className="page-section__overview">
+                        <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor lacus et erat molestie, quis cursus odio tempor. Aenean accumsan risus nisi. Etiam tincidunt ante sodales lacus consequat accumsan. Nunc tristique ultrices ultrices. Cras auctor rutrum mauris, convallis tristique dolor consequat quis.</em>
+                    </div>
                     <div className="flex align-start flex-wrap">
                         <div className="service-item">
                             <img src="/images/APPLICATION-DEVELOPMENT-T.png" />
