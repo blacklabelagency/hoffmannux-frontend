@@ -6,13 +6,14 @@ const nextConfig = {
         // by next.js will be dropped. Doesn't make much sense, but how it is
       fs: false, // the solution
     };
-
     return config;
   },
-
-    images: {
-        domains: ['localhost', 'blacklabelagency.com'],
-      },
+  env: {
+    BASE_URL: process.env.BASE_URL,
+  },
+  images: {
+    domains: ['localhost', 'blacklabelagency.com'],
+  },
 };
 
 export default nextConfig;

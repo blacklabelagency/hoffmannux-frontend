@@ -1,4 +1,4 @@
-'use client'
+
 import Image from "next/image";
 import Services from "./components/services/Services";
 import Contact from "./components/contact/Contact";
@@ -12,57 +12,9 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
 
-  const [currentTab, setCurrentTab] = useState<string|null>(null);
-  const [initTabs, setInitTabs] = useState<boolean>(false);
-
   const workData = jsonData;
   const tagline:string = "DEVELOPMENT + DESIGN";
   const taglineString = tagline.split('').map(letter => `<span>${letter}</span>`).join('');
-
-
-  useEffect(()=> {
-
-    /*if(initTabs == false){
-      let summaryList:NodeListOf<Element> = document.querySelectorAll('summary');
-      summaryList.forEach((summary) => {
-        summary.addEventListener('click', function(e){
-          let summaryDetail = summary.nextSibling as HTMLDetailsElement;
-          console.log(summaryDetail);
-          if(summaryDetail.open){
-            console.log("is open");
-          }
-          if(summaryDetail.open && summary.id != currentTab){
-            console.log("should scroll");
-            summary.scrollIntoView();
-            setCurrentTab(summary.id);
-          };
-        });
-      });
-      setInitTabs(true);
-    }*/
-
-    if(initTabs == false){
-      let detailsList:NodeListOf<HTMLDetailsElement> = document.querySelectorAll('.page-section details');
-      detailsList.forEach((detail)=>{
-        detail.addEventListener('toggle', function(e){
-          if(detail.open && detail.parentElement?.id != currentTab){
-            
-            if(detail.parentElement){
-              setCurrentTab(detail.parentElement.id);
-              detail.parentElement.scrollIntoView({behavior: "smooth"});
-            }
-          
-          }
-        });
-      });
-     setInitTabs(true);
-    }
-
-
-    
-    //console.log(currentTab);
-
-  },[]);
 
 
   return (

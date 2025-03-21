@@ -1,5 +1,3 @@
-'use client'
-import PageSectionDivider from "../pageSectionDivider/PageSectionDivider";
 import ContactForm from "./ContactForm";
 
 export default function Contact({sectionID}:{sectionID:string}){

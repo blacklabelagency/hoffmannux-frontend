@@ -1,3 +1,4 @@
+'use client'
 import * as sgMail from '@sendgrid/mail';
 import { useState } from 'react';
 
@@ -17,23 +18,26 @@ export default function ContactForm(){
         })
     }
 
-    sgMail.setApiKey(process.env.SENDGRID_API_KEY as string);
-
     const handleFormSubmit = (e:any) => {
         e.preventDefault();
         sendEmail(formState.email, formState.name, formState.message)
     }
 
-    const sendEmail = (from:string, name:string, text: string) => {
-        const to = process.env.SENDGRID_TO_EMAIL;
-        const subject = `HOFFMANN STUDIO Contact Form Submission from ${from}`;
-        const msg:sgMail.MailDataRequired = {
-            to,
-            from,
-            subject,
-            text,
+    const sendEmail = async(from:string, name:string, text: string) => {
+        const emailData = {
+            from: from,
+            name: name,
+            text: text
         };
-        sgMail.send(msg);
+        const res = await fetch(`/api/sendmail`,{
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(emailData),
+        });
+        const emailResponse = await res.json();
+        console.log(emailResponse);
     }
 
     return (
