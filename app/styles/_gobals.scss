@@ -360,6 +360,7 @@ details[open] {
     
       color: black;  
       background-color: white;
+      border-top: 5px solid #f1f1f1;
       
       .page-section__body {
         background-color: white;
@@ -367,6 +368,65 @@ details[open] {
       }
     
   }
+}
+.page-section__body__form-container {
+  display: flex; 
+  justify-content: center;
+
+}
+.contact-form {
+  width: 50vw;
+  padding: 2rem;
+  margin-top: 5rem;
+
+  
+  
+  fieldset {
+    margin-block: 1rem;
+
+    &.fieldset__two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    label {
+      width: 100%;
+      display: block;
+      font-family: var(--display-font-B);
+      color: var(--hoffmann-blue);
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      color: black;
+      width: 100%;
+      padding: 1rem;
+      border-radius: .25rem;
+      border: 1px solid rgb(188, 188, 188);
+    }
+  }
+
+  button {
+    background: var(--hoffmann-blue);
+    color: white;
+    border: none;
+    padding-inline: 1.5rem;
+    padding-block: .5rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: bold;
+    float: right;
+
+    svg {
+      fill: white;
+    }
+
+    &:hover {
+      background: var(--hoffmann-blue-brighter);
+    }
+  }
+
 }
 
 .page-section-work {
