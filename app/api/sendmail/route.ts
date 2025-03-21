@@ -10,12 +10,11 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function POST(req: NextRequest, res: NextResponse) {
     sgMail.setApiKey(process.env.SENDGRID_API_KEY as string);
     const data = await req.json();
-    const from = data.from;
-    const text = data.text;
+    const from = process.env.SENDGRID_TO_EMAIL as string;
+    const text = data.text + " email: " + data.from;
     const name = data.name;
     const to = process.env.SENDGRID_TO_EMAIL;
     const subject = `HOFFMANN STUDIO Contact Form Submission from ${name}`;
-    
 
     const msg:sgMail.MailDataRequired = {
         to,
