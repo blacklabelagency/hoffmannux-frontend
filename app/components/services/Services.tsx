@@ -1,19 +1,27 @@
 'use client'
 
+import ChatIcon from "../icons/ChatIcon"
 import PageSectionDivider from "../pageSectionDivider/PageSectionDivider"
 import Summary from "../summary/Summary"
 
 export default function Services({sectionID}:{sectionID:string}){
     return (
         <div id={sectionID} className="page-section page-section-services gsap_services">
-            <details>
-                <Summary title={"SERVICES"} />
+            <div className="page-section__inner">
                 <div className="page-section__body">
-                    <PageSectionDivider />
-                    <div className="page-section__overview">
-                        <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor lacus et erat molestie, quis cursus odio tempor. Aenean accumsan risus nisi. Etiam tincidunt ante sodales lacus consequat accumsan. Nunc tristique ultrices ultrices. Cras auctor rutrum mauris, convallis tristique dolor consequat quis.</em>
+                    <div className="page-section__banner services-banner">
+                        <div className="page-section__banner-title">
+                            <h3 className="page-section__banner-title__section-title">SERVICES</h3>
+                            <span className="page-section__banner-title__section-description">We can fill in at any part of your website or application lifecycle, or take on the whole project.</span>
+                        </div>
+                        <div className="page-section__banner-cta">
+                            <a href="#">
+                                <ChatIcon />    
+                                <span>Let's find the right solution for your business.</span>
+                            </a>
+                        </div>
                     </div>
-                    <div className="flex align-start flex-wrap">
+                    <div className="grid grid-cols-2 gap-6 my-12">
                         <div className="service-item">
                             <img src="/images/APPLICATION-DEVELOPMENT-T.png" />
                             <div>
@@ -60,7 +68,7 @@ export default function Services({sectionID}:{sectionID:string}){
                         </div>
                     </div>
                 </div>
-            </details>
+            </div>
 
       </div>
     )

@@ -67,22 +67,23 @@ export default function Home() {
 
   return (
     <>
-      <div className="min-h-[50vh] w-full flex homepage h-[60vh]">
-        <div className="left-side w-full md:w-5/12 flex flex-col items-center justify-center relative">
+      <div className="min-h-[50vh] w-full flex flex-col homepage py-24">
+        <div className="right-side w-full md:w-12/12 flex relative justify-center pb-8">
+          {/* <HomeAnimation /> */ }
+           <img className="home-animation-guide h-auto max-w-[300px] w-[50vw]" src="/homepage-graphics.png" /> 
+        </div>
+        <div className="left-side w-full md:w-12/12 flex flex-col items-center justify-center relative">
             <div className="text-center">
               <div className="mainlogo m-auto w-auto inline-block">
-                <img src="/hoffmann-logo-final.png" />
+                {/* <img src="/hoffmann-logo-final.png" /> */}
+                <h1 className="text-black-200">HOFFMANN STUDIO</h1>
                 <h4 dangerouslySetInnerHTML={{ __html: taglineString }} />
                 
               </div>
-              <div className="mt-6">
+              <div className="mt-6 md:px-[15vw] sm:px-[5vw]">
                 <p>We help to craft the journey users embark on when engaging with an organization, exploring its offerings, and diving into its products and services.</p>
               </div>
             </div>
-        </div>
-        <div className="right-side w-full md:w-7/12 flex  relative justify-center pb-2">
-          {/* <HomeAnimation /> */ }
-           <img className="home-animation-guide" src="/homepage-graphics.png" /> 
         </div>
       </div>
       

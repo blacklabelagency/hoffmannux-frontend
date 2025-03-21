@@ -21,7 +21,7 @@ export default function Navigation(){
                 <div className="navigation-linkset">
                     <TransitionLink href="#" label="ABOUT" />
                     <TransitionLink href="#" label="SERVICES" />
-                    <TransitionLink href="#" label="OUR WORK" />
+                    <TransitionLink href="#" label="WORK" />
                     <TransitionLink href="#" label="CONTACT" />
                 </div>
             </div>

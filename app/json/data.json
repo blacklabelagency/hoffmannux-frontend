@@ -2,14 +2,122 @@
     "workTypes": ["applications","websites", "branding", "other"],
     "work": [
         {
+            "slug": "stm",
+            "title": "International Association of Scientific, Technical & Medical Publishers (STM)",
+            "tagline" : "Etiam semper lectus in massa aliquam congue.",
+            "worktype" : ["websites"],
+            "url": {"url": "https://www.stm-assoc.org", "text": "stm-assoc.org"},
+            "width" : "half",
+            "info" : {
+                "overview": {
+                    "text": "<p>STM is the standard bearer for the academic publishing industry, working with its members to advance trusted research worldwide. They are committed to ensuring that the great discoveries of our time are communicated with pinpoint accuracy, clarity and integrity.</p>",
+                    "logo": "https://blacklabelagency.com/wp-content/uploads/2025/02/stm-logo-white.png",
+                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/9.png",
+                    "tagline" : "The publishing industry lorem ipsum dolor set amit"
+                },
+                "details": [
+                    {
+                        "title": "OA DASHBOARD",
+                        "text": "<p>The OA (Open Access) dashboard is a microsite designed to showcase the work of STM, providing visitors with an overview of open access analytics and trends. the microsite provides members with ways to access the data that STM has gathered throughout the year.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/STM-A.png",
+                        "stats" : [
+                            "Over 500 pages converted from visual composer to ACF flexible content for better design consistency and admin workflow across the entire platform. "
+                        ]
+                    },
+                    {
+                        "title": "SDG Roadmap",
+                        "text": "<p>STM, the leading voice for academic publishers, has created a roadmap that contains suggested concrete steps for all publishers, both big and small. From those just at the start of their journey, to others who already advanced and looking to accelerate.</p><p>Designed to inspire and support, this roadmap strives to equip colleagues across our sector by matching the practical steps with a dedicated toolkit of resources and examples to get everyone to take action towards achieving the SDGs today. </p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/STM-D.png",
+                        "stats" : [
+                            "Provides means to create yearly annual reports with integration to third-party graphing tools. "
+                        ]
+                    },
+                    {
+                        "title": "DOCUMENT LIBRARY",
+                        "text": "<p>The STM Document library is an important resource for those looking to learn more about STM goals various platforms. The mission of this project was to reinvent the document library, giving Administrators the ability to upload and categorize downloadable assets, as visitors are able to filter through and download the items they need.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/STM-B.png",
+                        "stats" : [
+                            "Over 2000 documents, many with private authentication through third party CRM."
+                        ]
+                    },
+                    {
+                        "title": "STM CONFERENCES",
+                        "text": "<p>STM hosts a variety of in-person and virtual conferences throughout the year to bring together their global community and promote their mission. Each conference requires a unique design of web banners and other digital assets that adhere to the overall STM brand and style guides.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-C.png",
+                        "stats" : [
+                            "Assistance in migration of legacy checkout systems to Stripe as well as providing more concise reporting for registration conversions."
+                        ]
+                    }
+                ]
+
+            },
+            "content": "<p>B.HOFFMANN works with STM to design and develop online digital web pages, banners, and social media assets to engage their members. The OA (Open Access) dashboard is a microsite designed to showcase the work of STM, providing visitors with an overview of open access analytics and trends. the microsite provides members with ways to access the data that STM has gathered throughout the year.</p><p>B.HOFFMANN also collaborated with STM to reinvent their document library. Administrators are able to upload and categorize downloadable assets, as visitors are able to filter through and download the items they need.</p>",
+            "stack": [
+                "PHP",
+                "Wordpress",
+                "Javascript"
+            ],
+            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-A.png",
+            "images": [
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-A.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-B.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-C.png"
+            ]
+        },
+        {
+            "slug": "amsa",
+            "title": "American Medical Student Association (AMSA)",
+            "worktype" : ["websites"],
+            "url": {"url": "https://amsa.org", "text": "amsa.org"},
+            "width" : "half",
+            "info" : {
+                "overview": {
+                    "text": "<p>AMSA is an independent, global association that exists to support, inform and inspire tomorrow’s physicians. The ones committed to making the world a better place through medicine. The American Medical Student Organization has over 33,000 members to which it provides resources, benefits and opportunities across the world.<p>",
+                    "logo": "https://blacklabelagency.com/wp-content/uploads/2025/02/amsa-logo.png",
+                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/10.png",
+                    "tagline" : "Medical students advocacy lorem ipsum dolor set amit"
+                },
+                "details": [
+                    {
+                        "title": "WEBSITE REDESIGN",
+                        "text": "<p>The AMSA website is targeted to a wide audience of premed and medical students looking to be advocates for a world where healthcare is accessible, medicine is affordable and systems support the diversity we see around us. The design and development of the AMSA website required the organization of a large amount of information that can be easily accessed, and often-times edited, by their student audience, chapter members, volunteers and core staff.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-B.png"
+                    },
+                    {
+                        "title": "LOGO AND STYLE GUIDE",
+                        "text": "<p> Multiple design iterations were presented to modernize AMSA's logo and overall style guide. The overall mission of the logo design was to appeal to a young audience and showcase the diversity of audience and progressive mission that AMSA represents.</p>",
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-C.png"
+                    }
+                ]
+
+            },
+            "content": "<p>The American Medical Student Organization has over 33,000 members to which it provides resources, benefits and opportunities across the world.<p> B.HOFFMANN worked closely with AMSA to provide a fresh design and renovated wordpress environment. This new build is used daily by the core AMSA stakeholders, various sub-groups and chapters, and the members who frequent the website through a membership software integration.</p><p> B.HOFFMANN was also tasked with redesigning their logo, creating a style guide to reflect their values, and provide their marketing team with design assets to use across print collateral and social media.</p>",
+            "stack": [
+                "PHP",
+                "Wordpress",
+                "Custom Theme",
+                "Javascript"
+            ],
+            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-A.png",
+            "images": [
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-A.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-B.png",
+                "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-C.png"
+            ]
+        },
+        {
             "slug": "abreak",
             "worktype" : ["applications", "recent"],
             "title": "aBreak Artist Discovery Platform",
+            "tagline" : "Etiam semper lectus in massa aliquam congue.",
             "url": {"url": "https://abreakmusic.com", "text": "abreakmusic.com"},
+            "width" : "full",
             "info" : {
                 "overview": {
                     "text": "<p>aBreak music is a free new music and artist discovery platform based in the US. Launched in the spring of 2022, the website allows independent artists to fill out a profile and upload their music. The music is then reviewed by a team of AR reps to be placed on a bi-weekly playlist</p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/abreak-logo-ALL-WHITE-TEXT-1.png"
+                    "logo": "https://blacklabelagency.com/wp-content/uploads/2025/02/abreak-logo-ALL-WHITE-TEXT-1.png",
+                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/7.png",
+                    "tagline" : "Supporting independent artists through a digital application"
                 },
                 "details": [
                     {
@@ -65,22 +173,32 @@
         {
             "slug": "best-friends",
             "title": "Best Friends Dementia Care Training",
+            "tagline" : "Etiam semper lectus in massa aliquam congue.",
             "worktype" : ["websites"],
             "url": {"url": "https://bestfriends.healthpropress.com", "text": "bestfriends.healthpropress.com"},
+            "width" : "half",
             "info" : {
                 "overview": {
                     "text": "<p>Best Friends is an approach to dementia care. A nurse takes training courses in the Best Friends approach and then becomes certified as a Master Trainer. The Master Trainer Portal was developed to give a place for certified trainers to gain access to resources, keep up-to-date with their certifications, connect with other Master Trainers and ask questions in a support forum.</p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/bestfriends-logo-white.png"
+                    "logo": "https://blacklabelagency.com/wp-content/uploads/2025/02/bestfriends-logo-white.png",
+                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/9.png",
+                    "tagline" : "Dementia care lorem isum dolor set amit"
                 },
                 "details": [
                     {
                         "title": "PORTAL",
                         "text": "<p>The Best Friends portal is a place for those participating in the Master Trainers program to review their profile, sort through a variety of documentation in the resource center, and connect with other trainers in the forums. </p>",
+                        "stats" : [
+                            "500 Active Members enrolled in the Best Friends intranet portal"
+                        ],
                         "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/HPP-C.png"
                     },
                     {
                         "title": "NOTIFICATION SYSTEM",
                         "text": "<p>The notification system was designed and developed to keeps track of Master Trainer portfolio submissions, payments and renewal dates. A series of 15 automated messages go out to Master Trainers, or their Parent Companies depending on when they registered, if a payment or portfolio has been submitted or if they are being deactivated for lack of payment or participation. This automated payment system saves administrators a lot of time throughout the year when managing hundreds of Master Trainer certifications whose notification were manually produced in the past.</p>",
+                        "stats" : [
+                            "Over 50 monthly notifications sent to members and member supported communities."
+                        ],
                         "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/BEST-FRIENDS-B.png"
                     }
                 ]
@@ -99,99 +217,17 @@
             ]
         },
         {
-            "slug": "stm",
-            "title": "International Association of Scientific, Technical & Medical Publishers (STM)",
-            "worktype" : ["websites"],
-            "url": {"url": "https://www.stm-assoc.org", "text": "stm-assoc.org"},
-            "info" : {
-                "overview": {
-                    "text": "<p>STM is the standard bearer for the academic publishing industry, working with its members to advance trusted research worldwide. They are committed to ensuring that the great discoveries of our time are communicated with pinpoint accuracy, clarity and integrity.</p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/stm-logo-white.png"
-                },
-                "details": [
-                    {
-                        "title": "OA DASHBOARD",
-                        "text": "<p>The OA (Open Access) dashboard is a microsite designed to showcase the work of STM, providing visitors with an overview of open access analytics and trends. the microsite provides members with ways to access the data that STM has gathered throughout the year.</p>",
-                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/STM-A.png"
-                    },
-                    {
-                        "title": "SDG Roadmap",
-                        "text": "<p>STM, the leading voice for academic publishers, has created a roadmap that contains suggested concrete steps for all publishers, both big and small. From those just at the start of their journey, to others who already advanced and looking to accelerate.</p><p>Designed to inspire and support, this roadmap strives to equip colleagues across our sector by matching the practical steps with a dedicated toolkit of resources and examples to get everyone to take action towards achieving the SDGs today. </p>",
-                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/STM-D.png"
-                    },
-                    {
-                        "title": "DOCUMENT LIBRARY",
-                        "text": "<p>The STM Document library is an important resource for those looking to learn more about STM goals various platforms. The mission of this project was to reinvent the document library, giving Administrators the ability to upload and categorize downloadable assets, as visitors are able to filter through and download the items they need.</p>",
-                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/STM-B.png"
-                    },
-                    {
-                        "title": "STM CONFERENCES",
-                        "text": "<p>STM hosts a variety of in-person and virtual conferences throughout the year to bring together their global community and promote their mission. Each conference requires a unique design of web banners and other digital assets that adhere to the overall STM brand and style guides.</p>",
-                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-C.png"
-                    }
-                ]
-
-            },
-            "content": "<p>B.HOFFMANN works with STM to design and develop online digital web pages, banners, and social media assets to engage their members. The OA (Open Access) dashboard is a microsite designed to showcase the work of STM, providing visitors with an overview of open access analytics and trends. the microsite provides members with ways to access the data that STM has gathered throughout the year.</p><p>B.HOFFMANN also collaborated with STM to reinvent their document library. Administrators are able to upload and categorize downloadable assets, as visitors are able to filter through and download the items they need.</p>",
-            "stack": [
-                "PHP",
-                "Wordpress",
-                "Javascript"
-            ],
-            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-A.png",
-            "images": [
-                "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-A.png",
-                "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-B.png",
-                "https://blacklabelagency.com/wp-content/uploads/2023/10/STM-C.png"
-            ]
-        },
-        {
-            "slug": "amsa",
-            "title": "American Medical Student Association (AMSA)",
-            "worktype" : ["websites"],
-            "url": {"url": "https://amsa.org", "text": "amsa.org"},
-            "info" : {
-                "overview": {
-                    "text": "<p>AMSA is an independent, global association that exists to support, inform and inspire tomorrow’s physicians. The ones committed to making the world a better place through medicine. The American Medical Student Organization has over 33,000 members to which it provides resources, benefits and opportunities across the world.<p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/amsa-logo.png"
-                },
-                "details": [
-                    {
-                        "title": "WEBSITE REDESIGN",
-                        "text": "<p>The AMSA website is targeted to a wide audience of premed and medical students looking to be advocates for a world where healthcare is accessible, medicine is affordable and systems support the diversity we see around us. The design and development of the AMSA website required the organization of a large amount of information that can be easily accessed, and often-times edited, by their student audience, chapter members, volunteers and core staff.</p>",
-                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-B.png"
-                    },
-                    {
-                        "title": "LOGO AND STYLE GUIDE",
-                        "text": "<p> Multiple design iterations were presented to modernize AMSA's logo and overall style guide. The overall mission of the logo design was to appeal to a young audience and showcase the diversity of audience and progressive mission that AMSA represents.</p>",
-                        "image": "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-C.png"
-                    }
-                ]
-
-            },
-            "content": "<p>The American Medical Student Organization has over 33,000 members to which it provides resources, benefits and opportunities across the world.<p> B.HOFFMANN worked closely with AMSA to provide a fresh design and renovated wordpress environment. This new build is used daily by the core AMSA stakeholders, various sub-groups and chapters, and the members who frequent the website through a membership software integration.</p><p> B.HOFFMANN was also tasked with redesigning their logo, creating a style guide to reflect their values, and provide their marketing team with design assets to use across print collateral and social media.</p>",
-            "stack": [
-                "PHP",
-                "Wordpress",
-                "Custom Theme",
-                "Javascript"
-            ],
-            "featuredImage" : "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-A.png",
-            "images": [
-                "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-A.png",
-                "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-B.png",
-                "https://blacklabelagency.com/wp-content/uploads/2023/10/AMSA-C.png"
-            ]
-        },
-        {
             "slug": "hpp",
             "title": "Health Professions Press",
             "worktype" : ["websites"],
             "url": {"url": "https://healthpropress.com", "text": "healthpropress.com"},
+            "width" : "half",
             "info" : {
                 "overview": {
                     "text": "<p>Health Professions Press provides books, textbooks, programs, training, and toolkits in Alzheimer’s/dementia care, long-term care, senior living, leadership, healthcare management, and more.</p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/HPP-Brookes-logo-white.png"
+                    "logo": "https://blacklabelagency.com/wp-content/uploads/2025/02/HPP-Brookes-logo-white.png",
+                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/10.png",
+                    "tagline" : "Health publications students advocacy lorem ipsum dolor set amit"
                 },
                 "details": [
                     {
@@ -226,10 +262,13 @@
             "title": "Nature Sacred",
             "worktype" : ["websites"],
             "url": {"url": "https://naturesacred.org", "text": "naturesacred.org"},
+            "width" : "half",
             "info" : {
                 "overview": {
                     "text": "<p>Nature Sacred exists to inspire, inform and guide communities in the creation of public green spaces—called Sacred Places—designed to improve mental health, unify communities and engender peace. </p>",
-                    "image": "https://blacklabelagency.com/wp-content/uploads/2025/02/ns-logo-white.png"
+                    "logo": "https://blacklabelagency.com/wp-content/uploads/2025/02/ns-logo-white.png",
+                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/10.png",
+                    "tagline" : "Communities access to nature lorem ipsum dolor set amit"
                 },
                 "details": [
                     {
@@ -240,12 +279,20 @@
                     {
                         "title": "NATURE SACRED DIRECTORY",
                         "text": "<p>A maps integration with a filterable list, designed to make it easy for visitors to the website to find and visit new Sacred Places around the US, as well as get in touch with those that manage resources.</p>",
-                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/Nature-Sacred-C.png"
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/Nature-Sacred-C.png",
+                        "stats" : [
+                            "Over 200 Nature Sacred places showcasing their breadth of work through specialized content, images, and partnership information"
+                        ]
                     },
                     {
                         "title": "MEMBER INTRANET",
                         "text": "<p>Firesouls can register with the intranet to be connected to other firesouls, submit events, fill out their own and view other profiles. They are also integrated with the front-end SP directory.</p>",
-                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/Nature-Sacred-D.png"
+                        "image": "https://blacklabelagency.com/wp-content/uploads/2024/01/Nature-Sacred-D.png",
+                        "stats" : [
+                            "Over 300 member profiles shared internally to allow for the sharing of knowledge on creating new Nature Sacred Places.",
+                            "Connects experienced developers, investors, grant writers and project contributors",
+                            "Full resource library for Nature Sacred developers to quickly access information on how to create and improve their Nature Sacred Place"
+                        ]
                     },
                     {
                         "title": "INFOGRAPHICS",

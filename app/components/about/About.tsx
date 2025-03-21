@@ -1,17 +1,19 @@
 'use client'
+import PageSectionDivider from "../pageSectionDivider/PageSectionDivider";
 import Summary from "../summary/Summary";
 
 export default function About({sectionID}:{sectionID:string}){
     return (
         <div className="page-section page-section-about" id={sectionID}>
-             <details>
-                <Summary title={"ABOUT"} />
+             <div className="page-section__inner">
+                <h3 className="section-header gsap_section_title">ABOUT</h3>
                 <div className="page-section__body">
-                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat posuere malesuada. Donec convallis massa a tortor fringilla, vitae convallis urna venenatis. Nullam aliquam elit id ullamcorper molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc nunc orci, vestibulum vitae neque a, rhoncus rutrum nulla. Fusce blandit sagittis lorem, at dignissim enim tincidunt vel. Ut gravida, dolor eu molestie tristique, metus quam ullamcorper turpis, vitae accumsan ex ex ut mi. Donec scelerisque, nibh eget bibendum efficitur, elit urna viverra massa, vulputate suscipit mauris purus non odio. Mauris sed tempor magna. Pellentesque vitae urna dictum, hendrerit massa quis, feugiat enim. Sed placerat pharetra est, eget scelerisque libero semper ut. Quisque lacinia justo sed orci pellentesque suscipit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat posuere malesuada. Donec convallis massa a tortor fringilla, vitae convallis urna venenatis. Nullam aliquam elit id ullamcorper molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc nunc orci, vestibulum vitae neque a, rhoncus rutrum nulla. Fusce blandit sagittis lorem, at dignissim enim tincidunt vel. Ut gravida, dolor eu molestie tristique, metus quam ullamcorper turpis, vitae accumsan ex ex ut mi. Donec scelerisque, nibh eget bibendum efficitur, elit urna viverra massa, vulputate suscipit mauris purus non odio. Mauris sed tempor magna. Pellentesque vitae urna dictum, hendrerit massa quis, feugiat enim. Sed placerat pharetra est, eget scelerisque libero semper ut. Quisque lacinia justo sed orci pellentesque suscipit.</p>
+                    <div className="page-section__overview">
+                        <p>We specialize in building custom web applications tailored to your business needs. With over 25 years of experience, we bring deep technical expertise and a commitment to delivering high-quality, scalable solutions.
+                        As a boutique firm, we take a hands-on approach, working closely with our clients to develop software that is both functional and efficient. Whether you need a new application or improvements to an existing system, we provide reliable, customized solutions to help your business run smoothly.</p>
+                    </div>
                 </div>
-             </details>
+             </div>
         </div>
     )
 }

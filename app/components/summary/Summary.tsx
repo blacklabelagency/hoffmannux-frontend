@@ -9,7 +9,7 @@ export default function Summary({title}:{title:string}){
         setShowDetails(showDetails ? false: true);
     }
     return (
-        <summary onClick={handleSummaryClick} className="section-header gsap_section_title">
+        <summary onClick={handleSummaryClick} className="section-header gsap_section_title" open>
             <span>{title}</span>
             <PlusSign setIconOn={showDetails} />
         </summary>
