@@ -17,7 +17,7 @@ export default function Services({sectionID}:{sectionID:string}){
                         <div className="page-section__banner-cta">
                             <a href="#">
                                 <ChatIcon />    
-                                <span>Let's find the right solution for your business.</span>
+                                <span>{`Let's find the right solution for your business.`}</span>
                             </a>
                         </div>
                     </div>

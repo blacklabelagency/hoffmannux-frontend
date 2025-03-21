@@ -1,12 +1,23 @@
 'use client'
 import PageSectionDivider from "../pageSectionDivider/PageSectionDivider";
-import Summary from "../summary/Summary";
 
 export default function About({sectionID}:{sectionID:string}){
     return (
         <div className="page-section page-section-about" id={sectionID}>
              <div className="page-section__inner">
-                <h3 className="section-header gsap_section_title">ABOUT</h3>
+                
+                <div className="page-section__header">
+                    <div className="page-section__header-left">
+                        <h3 className="section-header gsap_section_title">about</h3>
+                        <span className="section-header__description">
+                            We can fill in at any part of your website or application lifecycle, or take on the whole project
+                        </span>
+                    </div>
+                    <div className="page-section__header-right">
+                        <PageSectionDivider />
+                    </div>
+                </div>
+
                 <div className="page-section__body">
                     <div className="page-section__overview">
                         <p>We specialize in building custom web applications tailored to your business needs. With over 25 years of experience, we bring deep technical expertise and a commitment to delivering high-quality, scalable solutions.

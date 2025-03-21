@@ -333,11 +333,13 @@ details[open] {
 
   &.page-section-about {
 
-    color: white;
-    background-color: var(--hoffmann-blue);
+    color: black;
+    background-color: white;
 
     .page-section__body {
-      background-color: var(--hoffmann-blue);
+      background-color: white;
+      color: black;
+      margin-top: 2.5rem;
     }
     
   }
@@ -356,12 +358,12 @@ details[open] {
 
   &.page-section-contact {
     
-      background-color: var(--hoffmann-red);
-      color: white;
+      color: black;  
+      background-color: white;
       
       .page-section__body {
-        background-color: var(--hoffmann-red);
-        color: white;
+        background-color: white;
+        color: black;
       }
     
   }
@@ -692,21 +694,6 @@ details[open] {
 @keyframes work-detail-animation-off {
   0% {transform: translateX(0)}
   100% {transform: translateX(100%)}
-}
-
-.page-section-about {
-  background: var(--hoffmann-blue);
-  color: white;
-
-  .page-section__body {
-    width: 100%;
-    @media(min-width: 968px){
-      width: 50%;
-    }
-    .page-section__overview {
-      color: white;
-    }
-  }
 }
 
 .service-item {
