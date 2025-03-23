@@ -74,7 +74,7 @@
                 "overview": {
                     "text": "<p>AMSA is an independent, global association that exists to support, inform and inspire tomorrow’s physicians. The ones committed to making the world a better place through medicine. The American Medical Student Organization has over 33,000 members to which it provides resources, benefits and opportunities across the world.<p>",
                     "logo": "https://blacklabelagency.com/wp-content/uploads/2025/02/amsa-logo.png",
-                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/10.png",
+                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/amsa-group-image.jpg",
                     "tagline" : "Medical students advocacy lorem ipsum dolor set amit"
                 },
                 "details": [
@@ -181,7 +181,7 @@
                 "overview": {
                     "text": "<p>Best Friends is an approach to dementia care. A nurse takes training courses in the Best Friends approach and then becomes certified as a Master Trainer. The Master Trainer Portal was developed to give a place for certified trainers to gain access to resources, keep up-to-date with their certifications, connect with other Master Trainers and ask questions in a support forum.</p>",
                     "logo": "https://blacklabelagency.com/wp-content/uploads/2025/02/bestfriends-logo-white.png",
-                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/9.png",
+                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/best-friends-image-e1742759533435.jpg",
                     "tagline" : "Dementia care lorem isum dolor set amit"
                 },
                 "details": [
@@ -226,7 +226,7 @@
                 "overview": {
                     "text": "<p>Health Professions Press provides books, textbooks, programs, training, and toolkits in Alzheimer’s/dementia care, long-term care, senior living, leadership, healthcare management, and more.</p>",
                     "logo": "https://blacklabelagency.com/wp-content/uploads/2025/02/HPP-Brookes-logo-white.png",
-                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/10.png",
+                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/hpp-hoffmann-banner.png",
                     "tagline" : "Health publications students advocacy lorem ipsum dolor set amit"
                 },
                 "details": [
@@ -262,12 +262,12 @@
             "title": "Nature Sacred",
             "worktype" : ["websites"],
             "url": {"url": "https://naturesacred.org", "text": "naturesacred.org"},
-            "width" : "half",
+            "width" : "full",
             "info" : {
                 "overview": {
                     "text": "<p>Nature Sacred exists to inspire, inform and guide communities in the creation of public green spaces—called Sacred Places—designed to improve mental health, unify communities and engender peace. </p>",
                     "logo": "https://blacklabelagency.com/wp-content/uploads/2025/02/ns-logo-white.png",
-                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/10.png",
+                    "image" : "https://blacklabelagency.com/wp-content/uploads/2025/03/naturesacred-labyrinth.jpg",
                     "tagline" : "Communities access to nature lorem ipsum dolor set amit"
                 },
                 "details": [

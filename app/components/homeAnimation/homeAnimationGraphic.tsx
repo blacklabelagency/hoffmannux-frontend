@@ -30,9 +30,7 @@ export default function HomeAnimationGraphic(){
                     <svg xmlns="http://www.w3.org/2000/svg" width="116" height="116" fill="none"><circle cx="58" cy="58" r="58" fill="#0198AD"/></svg>
                 </div>
                 <div className="ha6a">
-                    <svg width="177" height="156" viewBox="0 0 177 156" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 0L88.5 78L177 156H0V0Z" fill="white"/>
-                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="177" height="156" fill="none"><path fill="#fff" stroke="#0198AD" stroke-width="4" d="m87.178 79.5 84.528 74.5H2V4.429L87.178 79.5Z"/></svg>
                 </div>
                 <div className="ha7">
                     <svg xmlns="http://www.w3.org/2000/svg" width="83" height="262" fill="none"><path fill="#D45822" d="M0 262V0h83v262z"/></svg>
