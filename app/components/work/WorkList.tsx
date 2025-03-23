@@ -24,6 +24,7 @@ export default function WorkList({
                     <div key={`work-item-${index}`} className={`work-item width-${workItem.width}`} onClick={() => handleWorkItemClick(workItem)}>
                         <div className="work-item__media">
                             <CornerIcon />
+                            <div className="work-item__overlay"></div>
                             <Image 
                                 src={String(workItem?.info.overview.image)} 
                                 alt={`image for ${workItem.title}`}

@@ -1,65 +1,284 @@
-.home-animation-guide {
-    position: relative;
-    z-index: 1;
-    opacity: 1;
-}
-.home-animation {
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    height: 90%;
 
-    * {
-        position: absolute;
+.home-animation-graphic {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    
+    
+}
+    .home-animation-graphic__inner {
+        margin: 0 auto;
+        width: 600px;
+        height: 600px;
+        position: relative;
+        transform: scale(.65);
+        transform-origin: top;
+        margin-left: 14rem;
+        margin-left: 15.5rem;
+
+        >div {
+            position: absolute;
+            animation-fill-mode: both;
+            >div {
+                animation-fill-mode: both;
+            }
+        }
     }
-}
-.home-animation__item-1 {
-    background: #e54d00;
-    width: 1.5625rem;
-    height: 1.5625rem;
-    position: absolute;
-    left: 245px;
-    top: 7px;
-}
-.home-animation__item-2 {
-    background: #e54d00;
-    width: 95px;
-    height: 110px;
-    position: absolute;
-    left: 143.1px;
-    top: 39px;
-    clip-path: polygon(1% 0, 100% 100%, 100% 0);
-}
-.home-animation__item-3 {
-    background: #e54d00;
-    width: 65px;
-    height: 50px;
-    position: absolute;
-    left: 245px;
-    top: 39px;
-}
-.home-animation__item-4 {
-    clip-path: circle(49.6% at 50% 113%);
-    background: var(--hoffmann-blue);
-    width: 156px;
-    height: 60px;
-    top: 29px;
-    left: 295px;
-}
-.home-animation__item-5 {
-    background: #e54d00;
-    width: 245px;
-    height: 58px;
-    position: absolute;
-    left: 245.1px;
-    top: 94px;
-}
-.home-animation__item-6 {
-    background: white;
-    width: 108px;
-    height: 95px;
-    position: absolute;
-    left: 244.1px;
-    top: 157px;
-    clip-path: polygon(0 0, 0% 100%, 100% 100%);
-}
+
+    @keyframes fade-in-a {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1
+        }
+      }
+    @keyframes scale-left {
+        0% {
+            transform: scaleX(0);
+        }
+        100% {
+            transform: scaleX(1);
+        }
+    }
+    @keyframes scale-up {
+        0% {
+            transform: scaleY(0);
+        }
+        100% {
+            transform: scaleY(1);
+        }
+    }
+    @keyframes scale-right {
+        0% {
+            transform: scaleX(0);
+        }
+        100% {
+            transform: scaleX(1);
+        }
+    }
+    @keyframes blink-in {
+        0% {opacity: 0;}
+        1% {opacity: 0;}
+        2% {opacity: 0;}
+        3% {opacity: 1;}
+        5% {opacity: 1;}
+        6% {opacity: 0;}
+        8% {opacity: 0;}
+        10% {opacity: 1;}
+        25% {opacity: 0;}
+        100%{opacity: 1;}
+    }
+
+    .ha1 {
+        left: 2px;
+        top: 44px;
+        animation-name: fade-in-a, scale-left;
+        animation-duration: .5s;
+        animation-delay: .25s;
+        transform-origin: right;
+    }
+    .ha2 {
+        left: 175px;
+        top: -3px;
+        animation-name: fade-in-a, scale-up;
+        animation-duration: .5s;
+        animation-delay: .35s;
+        transform-origin: bottom;
+    }
+    .ha3 {
+        left: 175px;
+        top: 44px;
+        animation-name: fade-in-a, scale-right;
+        animation-duration: .25s;
+        animation-delay: .5s;
+        transform-origin: left;
+    }
+    .ha4 {
+        left: 285px;
+        top: 33px;
+        animation-name: fade-in-a, scale-up;
+        animation-duration: .75s;
+        animation-delay: .45s;
+        transform-origin: bottom;
+        .ha4-graphic {
+            position: absolute;
+            bottom: 0;
+            animation-name: blink-in, scale-right;
+            animation-duration: .25s;
+            animation-delay: 1s;
+            transform-origin: left;
+        }
+    }
+    .ha5 {
+        top: 136px;
+        left: 175px;
+        animation-name: fade-in-a, scale-left;
+        animation-duration: .5s;
+        animation-delay: .25s;
+        transform-origin: right;
+        .ha5-graphic {
+            position: absolute;
+            right: 2px;
+            top: -44px;
+            animation-name: fade-in-a, scale-up;
+            animation-duration: .55s;
+            animation-delay: .75s;
+            transform-origin: bottom;
+            animation-fill-mode: both;
+        }
+    }
+    .ha6 {
+        top: 235px;
+        left: 186px;
+        z-index: 1;
+        animation-name: fade-in-a, scale-right;
+        animation-duration: .25s;
+        animation-delay: .5s;
+        transform-origin: left;
+
+        .ha6-graphic {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            animation-name: blink-in;
+            animation-duration: .25s;
+            animation-delay: .75s;
+        }
+    }
+    .ha6a {
+        top: 232px;
+        left: 177px;
+        animation-name: fade-in-a, scale-right;
+        animation-duration: .25s;
+        transform-origin: left;
+    }
+    .ha7 {
+        left: 371px;
+        top: 235px;
+        animation-name: fade-in-a, scale-up;
+        animation-duration: .45s;
+        animation-delay: .75s;
+        transform-origin: top;
+        
+    }
+    .ha8 {
+        left: 465px;
+        top: 235px;
+        animation-name: blink-in, scale-up;
+        animation-duration: .25s;
+        animation-delay: .45s;
+        transform-origin: center;
+        .ha8-eye {
+            position: absolute;
+            top: 20px;
+            left: 11px;
+            animation-name: blink-in, scale-up;
+            animation-duration: .25s;
+            animation-delay: 1s;
+            transform-origin: bottom;
+        }
+    }
+    .ha9 {
+        left: 585px;
+        top: 235px;    
+        animation-name: fade-in-a, scale-right;
+        animation-duration: .25s;
+        animation-delay: 1s;
+        transform-origin: left;
+    }
+    .ha10 {
+        left: 174px;
+        top: 400px;
+        animation-name: fade-in-a, scale-up;
+        animation-duration: .55s;
+        animation-delay: 1.15s;
+        transform-origin: bottom;
+    }
+    .ha11 {
+        left: 245px;
+        top: 449px;
+        animation-name: fade-in-a, scale-up;
+        animation-duration: .25s;
+        animation-delay: 1.25s;
+        transform-origin: bottom;
+    }
+    .ha12 {
+        left: 465px;
+        top: 358px;
+        animation-name: fade-in-a, scale-right;
+        animation-duration: .25s;
+        animation-delay: 1s;
+        transform-origin: left;
+    }
+    .ha13 {
+        left: 464px;
+        top: 364px;
+        animation-name: fade-in-a, scale-up;
+        animation-duration: .25s;
+        animation-delay: 1s;
+        transform-origin: bottom;
+    }
+    .ha14 {
+        left: 584px;
+        top: 364px;
+        animation-name: fade-in-a, scale-right;
+        animation-duration: .35s;
+        animation-delay: 1.12s;
+        transform-origin: left;
+    }
+    .ha15 {
+        left: 584px;
+        top: 414px;
+        animation-name: fade-in-a, scale-right;
+        animation-duration: .15s;
+        animation-delay: 1.25s;
+        transform-origin: left;
+    }
+    .ha16 {
+        left: 374px;
+        top: 503px;
+        animation-name: blink-in, scale-up;
+        animation-duration: .55s;
+        animation-delay: 1.25s;
+        transform-origin: center;
+    }
+    .ha17 {
+        left: 464px;
+        top: 527px;
+        animation-name: blink-in;
+        animation-duration: .55s;
+        animation-delay: 1.25s;
+    }
+    .ha18 {
+        left: 464px;
+        top: 503px;
+        animation-name: fade-in-a, scale-up;
+        animation-duration: .25s;
+        animation-delay: 1.35s;
+        transform-origin: top;
+    }
+    .ha19 {
+        left: 584px;
+        top: 504px;
+        animation-name: fade-in-a, scale-up;
+        animation-duration: .25s;
+        animation-delay: 1.35s;
+        transform-origin: center;
+    }
+    .ha20 {
+        left: 174px;
+        top: 506px;
+        width: 177px;
+        height: auto;
+        animation-name: fade-in-a, scale-up;
+        animation-duration: .25s;
+        animation-delay: 1.35s;
+        transform-origin: center;
+    }
+

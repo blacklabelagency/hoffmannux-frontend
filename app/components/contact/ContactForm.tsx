@@ -36,7 +36,7 @@ export default function ContactForm(){
             },
             body: JSON.stringify(emailData),
         });
-        const emailResponse = await res.json();
+        const emailResponse = await res;
         console.log(emailResponse);
     }
 

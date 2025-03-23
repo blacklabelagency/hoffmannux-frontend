@@ -1,8 +1,15 @@
+'use client'
 import ContactForm from "./ContactForm";
+import { useInView } from "react-intersection-observer";
 
 export default function Contact({sectionID}:{sectionID:string}){
+
+    const { ref, inView, entry } = useInView({
+        threshold: 0,
+      });
+
     return (
-        <div className="page-section page-section-contact" id={sectionID}>
+        <div ref={ref} className={`page-section page-section-contact ${inView ? "inView" : ""}`} id={sectionID}>
             <div className="page-section__inner">
                 <div className="page-section__header">
                     <div className="page-section__header-left">

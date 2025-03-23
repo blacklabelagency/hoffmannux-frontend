@@ -1,12 +1,15 @@
 'use client'
-
 import ChatIcon from "../icons/ChatIcon"
-import PageSectionDivider from "../pageSectionDivider/PageSectionDivider"
-import Summary from "../summary/Summary"
+import { useInView } from "react-intersection-observer";
 
 export default function Services({sectionID}:{sectionID:string}){
+
+    const { ref, inView, entry } = useInView({
+        threshold: 0,
+    });
+
     return (
-        <div id={sectionID} className="page-section page-section-services gsap_services">
+        <div ref={ref} id={sectionID} className={`page-section page-section-services gsap_services ${inView ? "inView" : null}`}>
             <div className="page-section__inner">
                 <div className="page-section__body">
                     <div className="page-section__banner services-banner">

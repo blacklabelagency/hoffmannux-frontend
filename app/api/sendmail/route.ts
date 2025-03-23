@@ -24,17 +24,26 @@ export async function POST(req: NextRequest, res: NextResponse) {
     };
     //sgMail.send(msg);
 
-  
-  try {
-    await sgMail.send(msg);
-    return NextResponse.json(
-        {message: "Email Sent Successfully"},
-        {status: 200}
-    );
-  } catch (error) {
-    return NextResponse.json(
-        {message: "Email Error",error: error},
-        {status: 500}
-    );
-  }
+    try {
+    sgMail.send(msg).then((response) => {
+        console.log(response[0].statusCode);
+        console.log(response[0].headers);
+        return NextResponse.json(
+            {message: "Email Sent Successfully"},
+            {status: 200}
+        );
+      })
+      .catch((error) => {
+        console.error(error);
+        return NextResponse.json(
+            {message: "Email Error",error: error},
+            {status: 500}
+        );
+      });
+    } catch(error){
+        return NextResponse.json(
+            {message: "Error",error: error},
+            {status: 500}
+        );
+    }
 }

@@ -1,12 +1,10 @@
 'use client'
 import { useEffect, useState } from "react"
 import WorkDetail from "./WorkDetail"
-import WorkTabs from "./WorkTabs"
 import WorkList from "./WorkList"
 import "@/app/interfaces/WorkData.interface"
-import PlusSign from "../icons/PlusSign"
-import Summary from "../summary/Summary"
 import PageSectionDivider from "../pageSectionDivider/PageSectionDivider"
+import { useInView } from "react-intersection-observer"
 
 export default function Work({jsondata, sectionID}:{jsondata:WorkData, sectionID:string}){
 
@@ -15,6 +13,9 @@ export default function Work({jsondata, sectionID}:{jsondata:WorkData, sectionID
     const [workItem, setWorkItem] = useState<WorkDetail | null>(null);
     const [workType, setWorkType] = useState("recent");
     const [showWorkDetails, setShowWorkDetails] = useState(false);
+    const { ref, inView, entry } = useInView({
+        threshold: 0,
+      });
 
     const handleWorkItemClick = (workItem:WorkDetail) => {
         setWorkDetailTitle(workItem.title);
@@ -39,7 +40,7 @@ export default function Work({jsondata, sectionID}:{jsondata:WorkData, sectionID
     }, [workDetailOn])
 
     return (
-        <div className="page-section page-section-work" id={sectionID}>
+        <div ref={ref} className={`page-section page-section-work ${inView ? "inView" : ""}`} id={sectionID}>
             <div className="page-section__inner">
                 <div className="page-section__header">
                     <div className="page-section__header-left">
