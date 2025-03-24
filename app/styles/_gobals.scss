@@ -404,7 +404,8 @@ details[open] {
         img {
           border-radius: 50%;
           border: 2px solid var(--hoffmann-red);
-          position: relative;
+          position: relative !important;
+          height: auto !important;
         }
       }
       .page-section__overview__nametag {

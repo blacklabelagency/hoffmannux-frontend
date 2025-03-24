@@ -29,7 +29,7 @@ export default function About({sectionID}:{sectionID:string}){
                                 layout="fill"
                                 objectPosition="relative"
                                 alt="about image - brent hoffmann"
-                                objectFit="contain"
+                                objectFit="cover"
                                 src={`https://blacklabelagency.com/wp-content/uploads/2025/03/headshot-b.png`}
                             />
                             <span className="page-section__overview__nametag">
