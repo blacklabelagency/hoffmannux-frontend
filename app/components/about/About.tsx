@@ -1,6 +1,7 @@
 'use client'
 import PageSectionDivider from "../pageSectionDivider/PageSectionDivider";
 import { useInView } from "react-intersection-observer";
+import Image from 'next/image';
 
 export default function About({sectionID}:{sectionID:string}){
 
@@ -15,9 +16,6 @@ export default function About({sectionID}:{sectionID:string}){
                 <div className="page-section__header">
                     <div className="page-section__header-left">
                         <h3 className="section-header gsap_section_title">about</h3>
-                        <span className="section-header__description">
-                            We can fill in at any part of your website or application lifecycle, or take on the whole project
-                        </span>
                     </div>
                     <div className="page-section__header-right">
                         <PageSectionDivider />
@@ -26,12 +24,22 @@ export default function About({sectionID}:{sectionID:string}){
 
                 <div className="page-section__body">
                     <div className="page-section__overview">
-                        <div className="page-section__overview-media">
-                            
+                        <div className="page-section__overview-media relative">
+                            <Image
+                                layout="fill"
+                                objectPosition="relative"
+                                alt="about image - brent hoffmann"
+                                objectFit="contain"
+                                src={`https://blacklabelagency.com/wp-content/uploads/2025/03/headshot-b.png`}
+                            />
+                            <span className="page-section__overview__nametag">
+                                <span><em>OWNER</em></span>
+                                <span>BRENT HOFFMANN</span>
+                            </span>
                         </div>
                         <div className="page-section__overview-content">
-                            <p>We specialize in building custom web applications tailored to your business needs. With over 25 years of experience, we bring deep technical expertise and a commitment to delivering high-quality, scalable solutions.
-                        As a boutique firm, we take a hands-on approach, working closely with our clients to develop software that is both functional and efficient. Whether you need a new application or improvements to an existing system, we provide reliable, customized solutions to help your business run smoothly.</p>
+                            <p>we craft custom web applications designed to meet the unique needs of your business. With over 25 years of experience, we bring deep technical knowledge, thoughtful design, and a strong focus on building scalable, high-quality solutions.</p>
+                            <p>As a boutique firm, we offer a personalized, hands-on approach—collaborating closely with every client to understand their goals and deliver software that’s both functional and elegant. From developing new applications to refining and modernizing existing systems, we provide reliable, tailored solutions that help your business thrive.</p>
                         </div>
                     </div>
                 </div>

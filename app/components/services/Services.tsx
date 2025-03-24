@@ -29,14 +29,14 @@ export default function Services({sectionID}:{sectionID:string}){
                             <img src="/images/APPLICATION-DEVELOPMENT-T.png" />
                             <div>
                                 <h3>APPLICATION DEVELOPMENT</h3>
-                                <p>We specialize in building custom applications tailored to your business needs. From mobile apps to desktop solutions, we ensure seamless functionality, user-friendly design, and efficient performance.</p>
+                                <p>We specialize in building custom web applications tailored to your business needs. We ensure seamless functionality, user-friendly design, and efficient performance.</p>
                             </div>
                         </div>
                         <div className="service-item">
                             <img src="/images/USER-EXPERIENCE-DESIGN-T.png" />
                             <div>
                                 <h3>USER EXPERIENCE DESIGN + CONSULTATION</h3>
-                                <p>Our team works with you to create engaging and intuitive user experiences. We focus on understanding your audience and designing interfaces that are easy to use, aesthetically pleasing, and conversion-focused.</p>
+                                <p>We want to tell your story on the web by creatin engaging and intuitive user experiences. We focus on understanding your audience and designing interfaces that are easy to use, aesthetically pleasing, and conversion-focused.</p>
                             </div>
                         </div>
                         <div className="service-item">

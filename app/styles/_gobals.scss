@@ -389,6 +389,45 @@ details[open] {
       background-color: white;
       color: black;
       margin-top: 2.5rem;
+      min-height: 0px;
+    }
+
+    .page-section__overview {
+      display: grid;
+      grid-template-columns: 1fr;
+      @media(min-width: 968px){
+        grid-template-columns: .5fr 2fr;
+        gap: 2rem;
+        justify-content: center;
+      }
+      .page-section__overview-media {
+        img {
+          border-radius: 50%;
+          border: 2px solid var(--hoffmann-red);
+          position: relative;
+        }
+      }
+      .page-section__overview__nametag {
+        background: var(--hoffmann-blue);
+        padding: .25rem 1rem;
+        text-align: center;
+        color: white;
+        display: block;
+        width: 100%;
+        margin-top: .5rem;
+        line-height: 1.15;
+        span {
+          display: block;
+          em {
+            font-size: .75rem;
+            line-height: 1;
+          }
+        }
+      }
+      p {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+      }
     }
     
   }
@@ -451,7 +490,7 @@ details[open] {
       width: 100%;
       padding: 1rem;
       border-radius: .25rem;
-      border: 1px solid rgb(188, 188, 188);
+      border: 1px solid var(--hoffmann-blue);
     }
     textarea {
       height: 300px;
@@ -696,7 +735,11 @@ details[open] {
     }
 
     button {
-      color: black;
+      color: white;
+      background: var(--hoffmann-red);
+      position: fixed;
+      right: 2rem;
+      top: 2rem;
     }
     
 
@@ -1021,6 +1064,7 @@ details[open] {
   width: 100%;
   padding-inline: 8vw;
   position: relative;
+  margin-top: 6rem;
   svg {
     width: 100%;
   }
@@ -1029,7 +1073,7 @@ details[open] {
 
     position: absolute;
     right: 10rem;
-    bottom: 100px;
+    bottom: 70px;
     text-align: right;
 
     h2 {
