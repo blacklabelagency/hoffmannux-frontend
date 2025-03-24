@@ -1,4 +1,5 @@
 'use client'
+import PageSectionDivider from "../pageSectionDivider/PageSectionDivider";
 import ContactForm from "./ContactForm";
 import { useInView } from "react-intersection-observer";
 
@@ -16,7 +17,7 @@ export default function Contact({sectionID}:{sectionID:string}){
                         <h3 className="section-header gsap_section_title">contact</h3>
                     </div>
                     <div className="page-section__header-right">
-                        
+                        <PageSectionDivider />
                     </div>
                 </div>
                 <div className="page-section__body">
