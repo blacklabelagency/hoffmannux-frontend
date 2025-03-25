@@ -11,7 +11,7 @@ export default function Navigation(){
     }
 
     return(
-        <aside className={`nav-sidebar w-full sm:w-[100vw] sm:h-[60px] lg:w-[5%] lg:h-[100vh] h-screen sticky top-0 p-4 ${navOn == true ? "nav-on" : "nav-off"}`}>
+        <aside className={`nav-sidebar w-full sm:w-[100vw] sm:h-[60px] lg:w-[5%] lg:h-[100vh] lg:h-screen sticky top-0 p-4 ${navOn == true ? "nav-on" : "nav-off"}`}>
             <div className="flex flex-col items-center">
                 <button className="text-4xl mb-10" onClick={() => navOn == true ? setNavOn(false) : setNavOn(true) }>
                     {navOn == false ? (
