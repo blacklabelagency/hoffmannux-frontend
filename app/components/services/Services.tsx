@@ -26,7 +26,7 @@ export default function Services({sectionID}:{sectionID:string}){
                     </div>
                     <div className="grid grid-cols-2 gap-6 my-12">
                         <div className="service-item">
-                            <img src="/images/APPLICATION-DEVELOPMENT-T.png" />
+                            <img src="https://blacklabelagency.com/wp-content/uploads/2025/03/APPLICATION-DEVELOPMENT.png" />
                             <div>
                                 <h3>WEBSITE + USER-INTERFACE DESIGN</h3>
                                 <p>We design custom responsive websites and web applications that drive engagement and deliver results. Our goal is to create a polished, professional presence online while ensuring excellent usability across all devices.</p>
@@ -47,14 +47,14 @@ export default function Services({sectionID}:{sectionID:string}){
                             </div>
                         </div>
                         <div className="service-item">
-                            <img src="/images/APPLICATION-DEVELOPMENT-T.png" />
+                            <img src="https://blacklabelagency.com/wp-content/uploads/2025/03/HOFFMANNUX-ICONS.png" />
                             <div>
                                 <h3>SYSTEM DESIGN</h3>
                                 <p>We offer expert system design services, crafting scalable and efficient architectures that support your business processes. Our solutions integrate seamlessly with existing systems and scale as your business grows.</p>
                             </div>
                         </div>
                         <div className="service-item">
-                            <img src="/images/MARKETING-SUPPORT-2-T.png" />
+                            <img src="https://blacklabelagency.com/wp-content/uploads/2025/03/MARKETING-SUPPORT-2.png" />
                             <div>
                                 <h3>MARKETING SUPPORT</h3>
                                 <p>We provide marketing solutions that help you reach your target audience effectively. From digital marketing strategies to social media campaigns, we ensure your brand stands out and drives customer engagement.
