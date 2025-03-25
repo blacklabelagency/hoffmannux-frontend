@@ -1,8 +1,7 @@
 'use client';
 import { RiMenu5Line, RiCloseFill } from "react-icons/ri";
-import Link from "next/link";
 import TransitionLink from "../transitionlink/TransitionLink";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Navigation(){
 
@@ -19,9 +18,9 @@ export default function Navigation(){
                     )}   
                 </button>
                 <div className="navigation-linkset">
-                    <TransitionLink href="#" label="ABOUT" />
                     <TransitionLink href="#" label="SERVICES" />
                     <TransitionLink href="#" label="WORK" />
+                    <TransitionLink href="#" label="ABOUT" />
                     <TransitionLink href="#" label="CONTACT" />
                 </div>
             </div>

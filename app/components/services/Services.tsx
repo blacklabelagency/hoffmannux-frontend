@@ -15,7 +15,7 @@ export default function Services({sectionID}:{sectionID:string}){
                     <div className="page-section__banner services-banner">
                         <div className="page-section__banner-title">
                             <h3 className="page-section__banner-title__section-title">SERVICES</h3>
-                            <span className="page-section__banner-title__section-description">We can fill in at any part of your website or application lifecycle, or take on the whole project.</span>
+                            <span className="page-section__banner-title__section-description">We can step in at any stage of your website or application lifecycle or handle the entire project from start to finish.</span>
                         </div>
                         <div className="page-section__banner-cta">
                             <a href="#">
@@ -28,6 +28,13 @@ export default function Services({sectionID}:{sectionID:string}){
                         <div className="service-item">
                             <img src="/images/APPLICATION-DEVELOPMENT-T.png" />
                             <div>
+                                <h3>WEBSITE + USER-INTERFACE DESIGN</h3>
+                                <p>We design custom responsive websites and web applications that drive engagement and deliver results. Our goal is to create a polished, professional presence online while ensuring excellent usability across all devices.</p>
+                            </div>
+                        </div>
+                        <div className="service-item">
+                            <img src="/images/APPLICATION-DEVELOPMENT-T.png" />
+                            <div>
                                 <h3>APPLICATION DEVELOPMENT</h3>
                                 <p>We specialize in building custom web applications tailored to your business needs. We ensure seamless functionality, user-friendly design, and efficient performance.</p>
                             </div>
@@ -37,13 +44,6 @@ export default function Services({sectionID}:{sectionID:string}){
                             <div>
                                 <h3>USER EXPERIENCE DESIGN + CONSULTATION</h3>
                                 <p>We want to tell your story on the web by creatin engaging and intuitive user experiences. We focus on understanding your audience and designing interfaces that are easy to use, aesthetically pleasing, and conversion-focused.</p>
-                            </div>
-                        </div>
-                        <div className="service-item">
-                            <img src="/images/APPLICATION-DEVELOPMENT-T.png" />
-                            <div>
-                                <h3>WEBSITE + USER-INTERFACE DESIGN</h3>
-                                <p>We design custom responsive websites and web applications that drive engagement and deliver results. Our goal is to create a polished, professional presence online while ensuring excellent usability across all devices.</p>
                             </div>
                         </div>
                         <div className="service-item">

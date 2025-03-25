@@ -33,7 +33,6 @@ export default function Home() {
                 {/* <img src="/hoffmann-logo-final.png" /> */}
                 <h1 className="text-black-200">HOFFMANN STUDIO</h1>
                 <h4 dangerouslySetInnerHTML={{ __html: taglineString }} />
-                
               </div>
               <div className="mt-6 md:px-[15vw] sm:px-[5vw] introduction-text">
                 <p>We help to craft the journey users embark on when engaging with an organization, exploring its offerings, and diving into its products and services.</p>

@@ -25,17 +25,7 @@ export default function About({sectionID}:{sectionID:string}){
                 <div className="page-section__body">
                     <div className="page-section__overview">
                         <div className="page-section__overview-media relative">
-                            <Image
-                                layout="fill"
-                                objectPosition="relative"
-                                alt="about image - brent hoffmann"
-                                objectFit="cover"
-                                src={`https://blacklabelagency.com/wp-content/uploads/2025/03/headshot-b.png`}
-                            />
-                            <span className="page-section__overview__nametag">
-                                <span><em>OWNER</em></span>
-                                <span>BRENT HOFFMANN</span>
-                            </span>
+                            
                         </div>
                         <div className="page-section__overview-content">
                             <p>we craft custom web applications designed to meet the unique needs of your business. With over 25 years of experience, we bring deep technical knowledge, thoughtful design, and a strong focus on building scalable, high-quality solutions.</p>
