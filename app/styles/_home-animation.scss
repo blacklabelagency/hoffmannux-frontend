@@ -16,14 +16,18 @@
         width: 100vw;
         height: 600px;
         position: relative;
-        transform: scale(.65);
+        transform: scale(.55);
         transform-origin: top;
-        margin-left: 1rem;
+        margin-left: -10rem;
 
+        @media(min-width: 768px){
+            transform: scale(.65);
+            margin-left: 1rem;
+        }
         @media(min-width: 1024px){
             margin-left: 15.5rem;
         }
-
+        
         >div {
             position: absolute;
             animation-fill-mode: both;
