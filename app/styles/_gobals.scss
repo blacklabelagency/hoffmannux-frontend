@@ -31,11 +31,15 @@
   }
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   color: white;
   /* background: var(--hoffmann-gray); */
   background: white;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 h1,h2,h3 {

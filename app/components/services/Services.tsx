@@ -18,7 +18,7 @@ export default function Services({sectionID}:{sectionID:string}){
                             <span className="page-section__banner-title__section-description">We can step in at any stage of your website or application lifecycle or handle the entire project from start to finish.</span>
                         </div>
                         <div className="page-section__banner-cta">
-                            <a href="#">
+                            <a href="#SECTION_CONTACT">
                                 <ChatIcon />    
                                 <span>{`Let's find the right solution for your business.`}</span>
                             </a>

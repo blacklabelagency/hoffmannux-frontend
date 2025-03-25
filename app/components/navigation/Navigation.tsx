@@ -18,10 +18,10 @@ export default function Navigation(){
                     )}   
                 </button>
                 <div className="navigation-linkset">
-                    <TransitionLink href="#" label="SERVICES" />
-                    <TransitionLink href="#" label="WORK" />
-                    <TransitionLink href="#" label="ABOUT" />
-                    <TransitionLink href="#" label="CONTACT" />
+                    <TransitionLink href="#" label="SERVICES" scrollTo="SECTION_SERVICES" />
+                    <TransitionLink href="#" label="WORK" scrollTo="SECTION_WORK" />
+                    <TransitionLink href="#" label="ABOUT" scrollTo="SECTION_ABOUT" />
+                    <TransitionLink href="#" label="CONTACT" scrollTo="SECTION_CONTACT"/>
                 </div>
             </div>
         </aside>

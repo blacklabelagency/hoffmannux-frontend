@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="flex">
           <Navigation />
-          <main className="w-full relative t-0">
+          <main className="w-full relative t-0 scroll-smooth">
             {children}
           </main>
         </div>
