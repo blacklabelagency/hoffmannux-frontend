@@ -18,8 +18,11 @@
         position: relative;
         transform: scale(.65);
         transform-origin: top;
-        margin-left: 14rem;
-        margin-left: 15.5rem;
+        margin-left: 1rem;
+
+        @media(min-width: 968px){
+            margin-left: 15.5rem;
+        }
 
         >div {
             position: absolute;
