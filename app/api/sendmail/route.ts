@@ -22,7 +22,6 @@ export async function POST(req: Request) {
         subject,
         text,
     };
-    //sgMail.send(msg);
 
     try {
       await sgMail.send(msg);
