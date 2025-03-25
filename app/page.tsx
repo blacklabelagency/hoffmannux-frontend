@@ -23,9 +23,7 @@ export default function Home() {
     <>
       <div className="min-h-[50vh] w-full flex flex-col homepage py-24">
         <div className="right-side w-full md:w-12/12 flex relative justify-center mb-[-150px]">
-          {/* <HomeAnimation /> */ }
           <HomeAnimationGraphic />
-          {/*  <img className="home-animation-guide h-auto max-w-[300px] w-[50vw]" src="/homepage-graphics.png" /> */}
         </div>
         <div className="left-side z-10 w-full md:w-12/12 flex flex-col items-center justify-center relative">
             <div className="text-center">
@@ -34,7 +32,7 @@ export default function Home() {
                 <h1 className="text-black-200">HOFFMANN STUDIO</h1>
                 <h4 dangerouslySetInnerHTML={{ __html: taglineString }} />
               </div>
-              <div className="mt-6 md:px-[15vw] sm:px-[5vw] introduction-text">
+              <div className="mt-6 md:px-[15vw] sm:px-[10vw] introduction-text">
                 <p>We help to craft the journey users embark on when engaging with an organization, exploring its offerings, and diving into its products and services.</p>
               </div>
             </div>
