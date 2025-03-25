@@ -1,6 +1,6 @@
 'use client'
-import * as sgMail from '@sendgrid/mail';
 import { useState } from 'react';
+import { Sendmail } from './sendmail';
 
 export default function ContactForm(){
 
@@ -29,6 +29,7 @@ export default function ContactForm(){
             name: name,
             text: text
         };
+        //const res = await Sendmail(emailData);
         const res = await fetch(`/api/sendmail`,{
             method: 'POST',
             headers: {
@@ -36,7 +37,7 @@ export default function ContactForm(){
             },
             body: JSON.stringify(emailData),
         });
-        const emailResponse = await res;
+        const emailResponse = await res.json();
         console.log(emailResponse);
     }
 

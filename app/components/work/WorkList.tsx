@@ -1,5 +1,5 @@
 'use client'
-import { Interweave } from "interweave";
+import { Interweave, Markup } from "interweave";
 import { useState } from "react";
 import { RiArrowRightLine } from "react-icons/ri";
 import Image from "next/image";
@@ -35,7 +35,7 @@ export default function WorkList({
                         <div className="work-item__content">
                             <div className="work-item__content__top">
                                 <h3><span>{workItem.title}</span></h3>
-                                <div className="work-item__description"><Interweave content={workItem?.info.overview.tagline} /></div>
+                                <div className="work-item__description"><span>{workItem?.info.overview.tagline}</span></div>
                             </div>
                         </div>
                     </div>

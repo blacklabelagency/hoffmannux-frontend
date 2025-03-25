@@ -27,8 +27,9 @@ export default function About({sectionID}:{sectionID:string}){
                         <div className="page-section__overview-media relative">
                             <Image 
                                 src="https://blacklabelagency.com/wp-content/uploads/2025/03/about-image-hoffmann.png"
-                                layout="fill"
                                 alt=""
+                                fill={true}
+                                sizes="100%"
                             />
                         </div>
                         <div className="page-section__overview-content">
