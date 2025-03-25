@@ -16,16 +16,26 @@
         width: 100vw;
         height: 600px;
         position: relative;
-        transform: scale(.55);
+        transform: scale(.65) translateX(-20vw);
+        transition: transform .3s ease-in-out;
         transform-origin: top;
-        margin-left: -10rem;
 
+        @media(min-width: 625px){
+            transform: scale(.65) translateX(-8vw);
+        }
         @media(min-width: 768px){
-            transform: scale(.65);
+            transform: scale(.65) translateX(1%);
+            margin-left: 1rem;
+        }
+        @media(min-width: 968px){
+            transform: scale(.65) translateX(13%);
             margin-left: 1rem;
         }
         @media(min-width: 1024px){
-            margin-left: 15.5rem;
+            transform: scale(.65) translateX(13%);
+        }
+        @media(min-width: 1300px){
+            transform: scale(.65) translateX(21%);
         }
         
         >div {
