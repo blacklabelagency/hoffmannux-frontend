@@ -10,7 +10,7 @@ import Navigation from "./components/navigation/Navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "HOFFMANN UX",
+  title: "Hoffmann Web Studio",
   description: "Design, Development, User Experience",
 };
 
