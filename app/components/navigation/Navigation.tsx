@@ -6,6 +6,9 @@ import { useState } from "react";
 export default function Navigation(){
 
     const [navOn, setNavOn] = useState(false);
+    const handleNavClick = () => {
+        setNavOn(false);
+    }
 
     return(
         <aside className={`nav-sidebar w-full sm:w-[100%] sm:h-[60px] lg:w-[5%] lg:h-[100vh] h-screen sticky top-0 p-4 ${navOn == true ? "nav-on" : "nav-off"}`}>
@@ -18,10 +21,10 @@ export default function Navigation(){
                     )}   
                 </button>
                 <div className="navigation-linkset">
-                    <TransitionLink href="#" label="SERVICES" scrollTo="SECTION_SERVICES" />
-                    <TransitionLink href="#" label="WORK" scrollTo="SECTION_WORK" />
-                    <TransitionLink href="#" label="ABOUT" scrollTo="SECTION_ABOUT" />
-                    <TransitionLink href="#" label="CONTACT" scrollTo="SECTION_CONTACT"/>
+                    <TransitionLink href="#" label="SERVICES" scrollTo="SECTION_SERVICES" handleClickFunction={handleNavClick} />
+                    <TransitionLink href="#" label="WORK" scrollTo="SECTION_WORK" handleClickFunction={handleNavClick} />
+                    <TransitionLink href="#" label="ABOUT" scrollTo="SECTION_ABOUT" handleClickFunction={handleNavClick} />
+                    <TransitionLink href="#" label="CONTACT" scrollTo="SECTION_CONTACT" handleClickFunction={handleNavClick} />
                 </div>
             </div>
         </aside>
