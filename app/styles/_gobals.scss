@@ -402,8 +402,6 @@ details[open] {
       }
       .page-section__overview-media {
         img {
-          border-radius: 50%;
-          border: 2px solid var(--hoffmann-red);
           position: relative !important;
           height: auto !important;
         }
@@ -468,8 +466,6 @@ details[open] {
   padding: 2rem;
   margin-top: 1rem;
 
-  
-  
   fieldset {
     margin-block: 1rem;
 
@@ -491,7 +487,7 @@ details[open] {
       width: 100%;
       padding: 1rem;
       border-radius: .25rem;
-      border: 1px solid var(--hoffmann-blue);
+      border: 1px solid var(--hoffmann-blue-brighter);
     }
     textarea {
       height: 300px;

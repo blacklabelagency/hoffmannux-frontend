@@ -25,11 +25,15 @@ export default function About({sectionID}:{sectionID:string}){
                 <div className="page-section__body">
                     <div className="page-section__overview">
                         <div className="page-section__overview-media relative">
-                            
+                            <Image 
+                                src="https://blacklabelagency.com/wp-content/uploads/2025/03/about-image-hoffmann.png"
+                                layout="fill"
+                                alt=""
+                            />
                         </div>
                         <div className="page-section__overview-content">
-                            <p>we craft custom web applications designed to meet the unique needs of your business. With over 25 years of experience, we bring deep technical knowledge, thoughtful design, and a strong focus on building scalable, high-quality solutions.</p>
-                            <p>As a boutique firm, we offer a personalized, hands-on approach—collaborating closely with every client to understand their goals and deliver software that’s both functional and elegant. From developing new applications to refining and modernizing existing systems, we provide reliable, tailored solutions that help your business thrive.</p>
+                            <p>We guide businesses through the ever-evolving digital landscape, offering expert technical solutions tailored to your unique needs. With over 25 years of experience, we combine deep technical knowledge, creative design, and a focus on delivering scalable, high-quality solutions.</p>
+                            <p>As a boutique firm, we take a personalized, hands-on approach—collaborating closely with each client to understand their goals and deliver results that are both functional and elegant. From web development and marketing to project management and system modernization, we craft reliable, customized solutions that help your business thrive.</p>
                         </div>
                     </div>
                 </div>
