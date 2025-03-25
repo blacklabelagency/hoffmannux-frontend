@@ -1,6 +1,5 @@
 'use client'
 import { useState } from 'react';
-import { Sendmail } from './sendmail';
 
 export default function ContactForm(){
 
