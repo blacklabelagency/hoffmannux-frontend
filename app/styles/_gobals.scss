@@ -35,6 +35,9 @@
   scroll-behavior: smooth;
 }
 
+html,body {
+  overflow-x: hidden;
+}
 body {
   color: white;
   /* background: var(--hoffmann-gray); */
