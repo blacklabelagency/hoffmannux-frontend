@@ -24,7 +24,7 @@ export default function Services({sectionID}:{sectionID:string}){
                             </a>
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 gap-6 my-12">
+                    <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 sm:my-6 lg:my-12">
                         <div className="service-item">
                             <img src="https://blacklabelagency.com/wp-content/uploads/2025/03/APPLICATION-DEVELOPMENT.png" />
                             <div>
