@@ -8,6 +8,7 @@ export default function ContactForm(){
         email: "",
         message: ""
     });
+    const [mailSent, setMailSent] = useState<boolean>(false);
 
     const handleFormInputChange = (e:any) =>{
         const value = e.target.value;
@@ -38,11 +39,13 @@ export default function ContactForm(){
         });
         const emailResponse = await res.json();
         console.log(emailResponse);
+        setMailSent(true);
     }
 
     return (
-        
+        mailSent===false ? (
         <form onSubmit={handleFormSubmit} className="form contact-form">
+            
             <h2>{`Let's talk about what's next`}</h2>
             <fieldset className="fieldset__two-column">
                 <span>
@@ -62,6 +65,13 @@ export default function ContactForm(){
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20"><path d="M0 4v13h9v-1H1V5h18v7.672l1 1V4H0zm14 2v5h4V6h-4zm1 1h2v3h-2V7zM3 11v1h8v-1H3zm0 2v1h6v-1H3zm12 0 3 3h-7v1h7l-3 3h1.5l3.5-3.5-3.5-3.5H15z" /></svg>
                 <span>SEND</span>
             </button>
+            
         </form>
+        ) : (
+            <div className="w-full px-6 py-6 mt-20 border border-blue border-2 contact-form__sent text-center">
+                <h2>THANK YOU FOR REACHING OUT!</h2>
+                <em>We will be in touch soon.</em>
+            </div>
+        )
     )
 }
