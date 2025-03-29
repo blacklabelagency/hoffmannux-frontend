@@ -530,6 +530,11 @@ details[open] {
     textarea {
       height: 300px;
     }
+    .form-error-message {
+      font-style: italic;
+      font-size: .9rem;
+      color: #ce0000;
+    }
   }
 
   button {

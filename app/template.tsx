@@ -1,13 +1,12 @@
-'use client'
 import {useRef, useEffect, useContext} from 'react';
-import { usePathname } from "next/navigation";
+import { ReCaptchaProvider } from "next-recaptcha-v3";
 
 export default function Template({children}:{children:React.ReactNode}){
 
-    const main = useRef<any>();
-    const scrollPage = useRef<any>();
 
     return (
-        <div ref={scrollPage} className="templateName">{children}</div>
+        <ReCaptchaProvider reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}>
+        <div className="hoffmann-template">{children}</div>
+        </ReCaptchaProvider>
     )
 }
