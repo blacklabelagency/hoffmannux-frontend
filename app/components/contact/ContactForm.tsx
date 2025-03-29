@@ -114,19 +114,25 @@ export default function ContactForm(){
             <h2>{`Let's talk about what's next`}</h2>
             <fieldset className="fieldset__two-column">
                 <span>
-                    <label htmlFor="name"><span>*</span>Name</label>
-                    {errors.name && <span className="form-error-message">required field</span>}
+                    <span className="flex justify-between items-center block">
+                        <label htmlFor="name"><span>*</span>Name</label>
+                        {errors.name && <span className="form-error-message w-[50%] block text-right">required field</span>}
+                    </span>
                     <input onChange={handleFormInputChange} name="name" type="text"></input>
                 </span>
                 <span>
-                    <label htmlFor="name"><span>*</span>Email</label>
-                    {errors.email && <span className="form-error-message">required field</span> }
+                    <span className="flex justify-between items-center block">
+                        <label htmlFor="name"><span>*</span>Email</label>
+                        {errors.email && <span className="form-error-message w-[50%] block text-right">required field</span> }
+                    </span>
                     <input onChange={handleFormInputChange} name="email" type="email"></input>
                 </span>
             </fieldset>
             <fieldset>
+                <span className="flex justify-between items-center block">
                 <label htmlFor="message"><span>*</span>Message</label>
-                {errors.message && <span className="form-error-message">required field</span> }
+                    {errors.message && <span className="form-error-message w-[50%] block text-right">required field</span> }
+                </span>
                 <textarea onChange={handleFormInputChange} name="message"></textarea>
             </fieldset>
             <div className="flex items-center justify-end">
